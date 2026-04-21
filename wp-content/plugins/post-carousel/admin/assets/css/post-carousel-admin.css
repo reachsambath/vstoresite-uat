@@ -1,0 +1,480 @@
+/**
+ * This file provides CSS for the admin dashboard.
+ */
+
+/* Help Page */
+.text-center {
+	text-align: center;
+}
+
+div.sp-pcp-help .wp-badge {
+	border: none;
+	background: url(../img/sps-badge.png) right no-repeat;
+	background-size: 100px 100px;
+	box-shadow: none;
+	height: auto;
+	top: -75px;
+}
+
+.about-wrap.sp-pcp-help [class$="-col"] {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.about-wrap.sp-pcp-help [class$="-col"] .col {
+	flex: 1;
+	align-self: flex-start;
+}
+
+.about-wrap.plugin-section {
+	margin: 25px 0px 0px;
+}
+
+.about-wrap.sp-pcp-help .feature-section .col {
+	margin-top: 40px;
+}
+
+.about-wrap.sp-pcp-help [class$="-col"] .col+.col {
+	margin-left: 20px;
+}
+
+.wrap.about-wrap.sp-pcp-help .headline-feature.feature-video {
+	position: relative;
+	margin: 40px 0;
+	padding-bottom: 56.25%;
+	width: 100%;
+	max-width: 100%;
+	height: 0;
+	text-align: center;
+}
+
+div.sp-pcp-help .headline-feature.feature-video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+div.sp-pcp-help .plugin-section .sp-plugin-section-title h2 {
+	font-size: 2.2em;
+	color: #32373c;
+	font-weight: 400;
+}
+
+div.sp-pcp-help .plugin-section .sp-plugin-section-title h4 {
+	font-weight: 400;
+	text-align: center;
+	font-size: 18px;
+	color: #555d66;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+div.sp-pcp-help .feature-section .sp-pcp-feature {
+	padding: 20px 20px;
+	border: 1px solid #ddd;
+}
+
+div.sp-pcp-help .feature-section .sp-pcp-feature h3 {
+	font-size: 16px;
+	margin-top: 18px;
+}
+
+div.sp-pcp-help .feature-section i.sp-pcp-font-icon {
+	font-size: 30px;
+	display: block;
+	color: #e1624b;
+	font-family: fontawesome;
+	font-style: normal;
+}
+
+.sp-pcp-help .sp-pcp-plugin {
+	border: 1px solid #ddd;
+}
+
+.sp-pcp-help .sp-pcp-plugin-content {
+	padding: 0 20px 20px;
+}
+
+.sp-pcp-help .sp-pcp-plugin-content h3 {
+	margin-top: 20px;
+	margin-bottom: 8px;
+	font-weight: 500;
+}
+
+.sp-pcp-help .feature-section .sp-pcp-feature,
+.sp-pcp-help .sp-pcp-plugin {
+	background-color: #fff;
+}
+
+.sp-pcp-post {
+	direction: ltr
+}
+
+html[dir="rtl"] .sp-pcp-post {
+	direction: rtl
+}
+
+/* Preloader */
+#sp_pcp_view_options .spf-metabox {
+	min-height: 300px;
+	z-index: 999;
+	background-image: url(../img/spinner.svg);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	background-position: center 65%;
+}
+
+#sp_pcp_view_options .spf-nav-metabox li {
+	opacity: 0;
+}
+
+/* Shortcode sidebar */
+.pcp-after-copy-text {
+	bottom: 0;
+	opacity: 0;
+	z-index: 9999999;
+	position: fixed;
+	width: 230px;
+	left: 180px;
+	text-align: center;
+	padding: 15px 15px;
+	line-height: 15px;
+	color: #fff;
+	border-radius: 3px;
+	background: #32373C;
+	border: 1px solid #32373C;
+}
+
+.pcp-after-copy-text .fa-check-circle {
+	font-size: 14px;
+	margin-right: 2px;
+	color: #5db62e
+}
+
+span.pcp-shortcode-selectable {
+	background-color: #eeeeee;
+	padding: 10px 15px 10px 30px;
+	display: inline-block;
+	border: 1px solid #e2e2e2;
+	cursor: pointer;
+	border-radius: 3px;
+	word-break: break-word;
+	position: relative;
+	width: 80%;
+}
+
+span.pcp-shortcode-selectable::after {
+	content: url(../img/copy.svg);
+	width: 16px;
+	left: 10px;
+	top: 50%;
+	position: absolute;
+	margin-top: -6px;
+}
+
+.pcp-scode-wrap-side p {
+	margin-top: 0;
+}
+
+.pcp-scode-wrap-side {
+	margin-top: 0;
+	margin-bottom: 16px;
+	overflow: hidden;
+}
+
+.pcp-scode-wrap-side .pcp-sc-title {
+	margin-top: 0;
+	margin-bottom: 7px;
+	font-size: 1.2em;
+}
+
+.post-type-sp_post_carousel .postbox-header .handle-actions .handle-order-lower,
+.post-type-sp_post_carousel .postbox-header .handle-actions .handle-order-higher {
+	display: none;
+}
+
+#spf-section-sp_pcp_display_shortcode_1 .spf-field.spf-field-shortcode.pcp-admin-sidebar {
+	padding: 12px;
+}
+
+#sp_pcp_layouts .postbox-header {
+	border: none;
+}
+
+.post-type-sp_post_carousel .misc-pub-section.misc-pub-visibility,
+.post-type-sp_post_carousel .misc-pub-section.curtime.misc-pub-curtime {
+	display: none;
+}
+
+/* Review notice */
+#smart-post-show-review-notice {
+	padding: 18px 15px 18px 0;
+	background-color: #fff;
+	border-radius: 3px;
+	margin: 20px 20px 0 0;
+	clear: both;
+	box-shadow: 0 0 20px 0 rgba(36, 39, 50, .08);
+}
+
+#smart-post-show-review-notice .sp-sps-plugin-icon {
+	width: 125px;
+	float: left;
+	line-height: 90px;
+	text-align: center;
+	margin-left: 8px;
+}
+
+#smart-post-show-review-notice .sp-sps-plugin-icon img {
+	max-width: 94px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+#smart-post-show-review-notice .sp-sps-notice-text {
+	overflow: hidden;
+}
+
+#smart-post-show-review-notice .sp-sps-notice-text h3 {
+	font-size: 24px;
+	margin: 0 0 5px;
+	font-weight: 400;
+	line-height: 1;
+}
+
+#smart-post-show-review-notice .sp-sps-notice-text p {
+	margin: 10px 0 10px 0;
+	font-size: 13px;
+}
+
+#smart-post-show-review-notice .sp-sps-notice-text p.sp-sps-review-actions {
+	margin: 10px 0 2px 0;
+}
+
+#smart-post-show-review-notice .sp-sps-notice-text .sp-sps-review-actions a {
+	text-decoration: none;
+	margin-right: 8px;
+	color: #63a37b;
+	display: inline-block;
+	position: relative;
+}
+
+#smart-post-show-review-notice .sp-sps-notice-text .sp-sps-review-actions a span {
+	padding-right: 2px;
+}
+
+#smart-post-show-review-notice .sp-sps-notice-text .sp-sps-review-actions a.button {
+	color: #fff;
+}
+
+/* Gutenberg selector field style */
+.spsp-gutenberg-shortcode.editor-styles-wrapper {
+	padding: 0;
+	line-height: 24px;
+}
+
+.block-editor-page .editor-styles-wrapper select,
+.block-editor-page select.spsp-shortcode-selector,
+.block-editor-page select.spsp-shortcode-selector:focus,
+.block-editor-page select.spsp-shortcode-selector:focus-visible {
+	width: 250px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	font-size: 13px;
+	padding-right: 24px;
+}
+
+/* Hide date format & Avatar fields from smart post show (free). */
+#spf-section-sp_pcp_view_options_2 .spf-field.spf-field-select.post_meta_date_format,
+#spf-section-sp_pcp_view_options_2 .spf-field.spf-field-select.post_meta_author_avatar,
+#spf-section-sp_pcp_view_options_2 .spf-field.spf-field-icon.select_meta_icon {
+	opacity: .7;
+	pointer-events: none;
+}
+
+#adminmenu #menu-posts-sp_post_carousel li:nth-child(8) a {
+	color: #f9be48;
+}
+
+#adminmenu #menu-posts-sp_post_carousel li a .sp-go-pro-icon {
+	background-image: url(../img/premium.svg);
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: left;
+	margin-right: 1px;
+	margin-left: -2px;
+	margin-top: -1px;
+}
+
+.spspc-footer-text-star {
+	color: #dba617;
+}
+
+.rtl #smart-post-show-review-notice {
+	margin: 20px 0 0 20px;
+	padding: 18px 0 18px 15px;
+}
+
+.rtl #smart-post-show-review-notice .sp-sps-plugin-icon {
+	float: right;
+	margin: 0 0 0 8px;
+}
+
+/* Offer Banner Styles  */
+.sp_sps-admin-offer-banner-section {
+	position: relative;
+	border-radius: 5px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 16px;
+	height: auto;
+	border-left: 0;
+	margin-top: 40px;
+	margin-right: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 5px 40px;
+	background: linear-gradient(90deg, #000717 0%, #002068 50.5%, #451223 100%);
+	clear: both;
+}
+
+.sp_sps-admin-offer-banner-section .sp_sps-offer-additional-text {
+	display: flex;
+	align-items: center;
+}
+
+.sp_sps-admin-offer-banner-section span.sp_sps-clock-icon {
+	font-size: 24px;
+	margin-right: 6px;
+}
+
+.sp_sps-admin-offer-banner-section img.sp_sps-plugin-logo,
+.sp_sps-admin-offer-banner-section img.sp_sps-offer-name,
+.sp_sps-admin-offer-banner-section img.sp_sps-offer-percentage {
+	max-width: 250px;
+}
+
+.sp_sps-admin-offer-banner-section img.sp_sps-plugin-logo {
+	width: 150px;
+}
+
+.sp_sps-admin-offer-banner-section img.sp_sps-offer-percentage {
+	width: 210px;
+	vertical-align: middle;
+}
+
+.sp_sps-admin-offer-banner-section .sp_sps-offer-additional-text p {
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: .5px;
+}
+
+.sp_sps-admin-offer-banner-section a.sp_sps-get-offer-button {
+	width: 100px;
+	display: inline-block;
+	font-size: 13px;
+	background: pink;
+	border-radius: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	padding: 12px 15px;
+	font-weight: 600;
+	transition: .8s ease;
+	background: linear-gradient(98.42deg, #A900BF 8.48%, #E100FF 80.32%);
+}
+
+.sp_sps-admin-offer-banner-section a.sp_sps-get-offer-button:hover {
+	background: linear-gradient(0deg, #A900BF 8.48%, #E100FF 80.32%);
+}
+
+.sp_sps-admin-offer-banner-section .sp_sps-close-offer-banner {
+	position: absolute;
+	top: 50%;
+	right: 6px;
+	top: 6px;
+	cursor: pointer;
+}
+
+.sp_sps-admin-offer-banner-section i.sp_sps-icon-banner-close {
+	transition: 0.15s ease;
+}
+
+.sp_sps-admin-offer-banner-section i.sp_sps-icon-banner-close:hover {
+	color: #df3939b5;
+}
+
+.sp_sps-admin-offer-banner-section .sp_sps-banner-action-button {
+	line-height: 22px;
+}
+
+/* Offer Banner Responsiveness */
+@media only screen and (max-width: 1360px) {
+	.sp_sps-admin-offer-banner-section {
+		padding-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.sp_sps-admin-offer-banner-section {
+		padding-top: 20px;
+	}
+
+	#screen-meta-links+.sp_sps-admin-offer-banner-section {
+		margin-top: 50px !important;
+	}
+}
+
+.sp_sps-admin-offer-banner-section .sp_sps-close-offer-banner {
+	position: absolute;
+	top: 50%;
+	right: 4px;
+	top: 4px;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+
+.sp_sps-admin-offer-banner-section .sp_sps-close-offer-banner:before,
+.sp_sps-admin-offer-banner-section .sp_sps-close-offer-banner:after {
+	content: '';
+	width: 16px;
+	height: 1.3px;
+	background: #ffffff;
+	top: 9px;
+	left: 3px;
+	display: block !important;
+	transform: rotate(45deg);
+	position: absolute;
+}
+
+.sp_sps-admin-offer-banner-section .sp_sps-close-offer-banner:after {
+	transform: rotate(135deg);
+}
+
+.sp_sps-admin-offer-banner-section .sp_sps-close-offer-banner:hover:before,
+.sp_sps-admin-offer-banner-section .sp_sps-close-offer-banner:hover:after {
+	background-color: #df3939b5;
+}
+
+/* RTL style for the offer banner. */
+.rtl .sp_sps-admin-offer-banner-section {
+	margin: 40px 0 0 20px;
+}
+
+.rtl .sp_sps-admin-offer-banner-section .sp_sps-close-offer-banner {
+	right: auto;
+	left: 4px;
+}
+
+.rtl .sp_sps-admin-offer-banner-section span.sp_sps-clock-icon {
+	margin-left: 6px;
+	margin-right: 0;
+}

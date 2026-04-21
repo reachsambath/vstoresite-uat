@@ -1,0 +1,2119 @@
+# Translation of
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: iThemelandCo WooCommerce Product Table v1.8.1\n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2021-05-23 10:54+0430\n"
+"PO-Revision-Date: 2021-01-12 17:03+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html__\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: .\n"
+
+#: ../include/admin_add_page.php:12
+msgid "ADD NEW TABLE"
+msgstr ""
+
+#: ../include/admin_add_page.php:22 ../include/admin_general_page.php:20
+msgid "update"
+msgstr ""
+
+#: ../include/admin_add_page.php:24 ../include/admin_general_page.php:22
+msgid "save"
+msgstr ""
+
+#: ../include/admin_add_page.php:33 ../include/admin_page.php:58
+msgid "Copy"
+msgstr ""
+
+#: ../include/admin_add_page.php:45
+msgid "Menu"
+msgstr ""
+
+#: ../include/admin_add_page.php:56 ../include/admin_forms.php:79
+msgid "columns"
+msgstr ""
+
+#: ../include/admin_add_page.php:61
+msgid "query"
+msgstr ""
+
+#: ../include/admin_add_page.php:66
+msgid "search box & paginations"
+msgstr ""
+
+#: ../include/admin_add_page.php:71
+msgid "template"
+msgstr ""
+
+#: ../include/admin_add_page.php:76
+msgid "settings"
+msgstr ""
+
+#: ../include/admin_add_page.php:81
+msgid "localization"
+msgstr ""
+
+#: ../include/admin_forms.php:45
+msgid "Shortcode Name"
+msgstr ""
+
+#: ../include/admin_forms.php:46
+msgid "Enter Shortcode Name"
+msgstr ""
+
+#: ../include/admin_forms.php:80
+msgid ""
+"To add taxonomy or Custom_Field as table column for your table, try from "
+"following bottom section before [Publish/Update] your post."
+msgstr ""
+
+#: ../include/admin_forms.php:86 ../include/admin_forms.php:87
+#: ../include/admin_forms_taxonomies.php:111
+#: ../include/admin_template_page.php:133 ../include/front_shortcode.php:816
+msgid "ID"
+msgstr ""
+
+#: ../include/admin_forms.php:94 ../include/admin_forms.php:95
+msgid "SL"
+msgstr ""
+
+#: ../include/admin_forms.php:102 ../include/admin_forms.php:103
+#: ../include/admin_template_page.php:192
+#: ../include/admin_template_page.php:412
+msgid "Thumbnails"
+msgstr ""
+
+#: ../include/admin_forms.php:110 ../include/admin_forms.php:111
+#: ../include/admin_template_page.php:193
+#: ../include/admin_template_page.php:413
+msgid "Product Title"
+msgstr ""
+
+#: ../include/admin_forms.php:118 ../include/admin_forms.php:119
+msgid "Description"
+msgstr ""
+
+#: ../include/admin_forms.php:126 ../include/admin_forms.php:127
+#: ../include/admin_template_page.php:195
+#: ../include/admin_template_page.php:231
+#: ../include/admin_template_page.php:329
+#: ../include/admin_template_page.php:381
+#: ../include/admin_template_page.php:415
+msgid "Category"
+msgstr ""
+
+#: ../include/admin_forms.php:134 ../include/admin_forms.php:135
+msgid "Tags"
+msgstr ""
+
+#: ../include/admin_forms.php:142 ../include/admin_forms.php:143
+#: ../include/admin_forms.php:916 ../include/admin_forms.php:917
+#: ../include/admin_forms.php:2386 ../include/admin_forms_taxonomies.php:117
+#: ../include/admin_template_page.php:140 ../include/front_shortcode.php:822
+msgid "SKU"
+msgstr ""
+
+#: ../include/admin_forms.php:150 ../include/admin_forms.php:151
+msgid "Weight(kg)"
+msgstr ""
+
+#: ../include/admin_forms.php:158 ../include/admin_forms.php:159
+msgid "Length(cm)"
+msgstr ""
+
+#: ../include/admin_forms.php:166 ../include/admin_forms.php:167
+msgid "Width(cm)"
+msgstr ""
+
+#: ../include/admin_forms.php:174 ../include/admin_forms.php:175
+msgid "Height(cm)"
+msgstr ""
+
+#: ../include/admin_forms.php:182 ../include/admin_forms.php:183
+#: ../include/admin_forms_taxonomies.php:114
+#: ../include/admin_template_page.php:136 ../include/front_shortcode.php:819
+msgid "Rating"
+msgstr ""
+
+#: ../include/admin_forms.php:190 ../include/admin_forms.php:191
+#: ../include/admin_template_page.php:196
+#: ../include/admin_template_page.php:416
+msgid "Stock"
+msgstr ""
+
+#: ../include/admin_forms.php:198 ../include/admin_forms.php:199
+#: ../include/admin_forms_taxonomies.php:113
+#: ../include/admin_template_page.php:135
+#: ../include/admin_template_page.php:265 ../include/front_shortcode.php:818
+msgid "Price"
+msgstr ""
+
+#: ../include/admin_forms.php:206 ../include/admin_forms.php:207
+#: ../include/admin_template_page.php:194
+#: ../include/admin_template_page.php:414
+msgid "Quantity"
+msgstr ""
+
+#: ../include/admin_forms.php:214 ../include/admin_forms.php:215
+msgid "Total Price"
+msgstr ""
+
+#: ../include/admin_forms.php:222 ../include/admin_forms.php:223
+msgid "Short Message"
+msgstr ""
+
+#: ../include/admin_forms.php:230 ../include/admin_forms.php:231
+#: ../include/admin_forms_taxonomies.php:116
+#: ../include/admin_template_page.php:138 ../include/front_shortcode.php:821
+msgid "Date"
+msgstr ""
+
+#: ../include/admin_forms.php:238 ../include/admin_forms.php:239
+msgid "Attributes"
+msgstr ""
+
+#: ../include/admin_forms.php:246 ../include/admin_forms.php:247
+msgid "Variations"
+msgstr ""
+
+#: ../include/admin_forms.php:254 ../include/admin_forms.php:255
+#: ../include/admin_forms.php:930 ../include/admin_forms.php:931
+#: ../include/admin_forms.php:2398 ../include/admin_template_page.php:199
+#: ../include/admin_template_page.php:419
+msgid "Action"
+msgstr ""
+
+#: ../include/admin_forms.php:262 ../include/admin_forms.php:263
+#: ../include/admin_template_page.php:200
+#: ../include/admin_template_page.php:420
+msgid "Check"
+msgstr ""
+
+#: ../include/admin_forms.php:274 ../include/admin_forms.php:322
+#: ../include/admin_forms.php:449 ../include/admin_forms.php:468
+#: ../include/admin_forms.php:753 ../include/admin_forms.php:1137
+msgid "help?"
+msgstr ""
+
+#: ../include/admin_forms.php:275
+msgid ""
+"You can enable/disable product fields as table columns.\n"
+"Here you can do some actions:\n"
+"1-\tShow/Hide column for different devices (Desktop, Tablet or Mobile)\n"
+"2-\tSet Custom Title for each Column\n"
+"3-\tSet Custom Order for Columns\n"
+"4-\tAdd New Custom Field\n"
+"5-\tAdd Custom Taxonomy\n"
+msgstr ""
+
+#: ../include/admin_forms.php:290 ../include/admin_template_page.php:63
+msgid "Product"
+msgstr ""
+
+#: ../include/admin_forms.php:294
+msgid "Product ID Include"
+msgstr ""
+
+#: ../include/admin_forms.php:295 ../include/admin_forms.php:308
+msgid "Example: 1,2,3,4"
+msgstr ""
+
+#: ../include/admin_forms.php:307
+msgid "Product ID Exclude"
+msgstr ""
+
+#: ../include/admin_forms.php:323
+msgid ""
+"In this tab you can build your query, this mean you can fetch specific "
+"products and display them as table.\n"
+"There are a lot of options for that, for example you can just display "
+"products from specific “Category(s)” or “Custom Taxonomy(s)”, Featured "
+"Products, On-Sale products, In custom Price Range and etc.\n"
+"\tAll of options divided by fields type:\n"
+"1-\tProduct: You can Show/Hide individual products.\n"
+"2-\tCategory/Taxonomy/Tags/Variations: There are all of Product’s Taxonomies "
+"and you can set your custom items for each one.\n"
+"3-\tOrder / Order By: Products will be sort by specific field in Ascending/"
+"Descending mode.\n"
+"4-\tConditions: Set Extra condition over your query."
+msgstr ""
+
+#: ../include/admin_forms.php:337
+msgid "Search Enable/Disable"
+msgstr ""
+
+#: ../include/admin_forms.php:340 ../include/admin_forms.php:351
+#: ../include/admin_forms.php:376 ../include/admin_forms.php:393
+#: ../include/admin_forms.php:419 ../include/admin_forms.php:435
+#: ../include/admin_forms.php:559 ../include/admin_forms.php:584
+#: ../include/admin_forms.php:647 ../include/admin_forms.php:672
+#: ../include/admin_forms.php:683 ../include/admin_forms.php:696
+#: ../include/admin_forms.php:719 ../include/admin_forms.php:2138
+#: ../include/admin_forms.php:2147 ../include/admin_forms_taxonomies.php:68
+msgid "Enable"
+msgstr ""
+
+#: ../include/admin_forms.php:348
+msgid "Always Show Search Form"
+msgstr ""
+
+#: ../include/admin_forms.php:364
+msgid "Fields Options"
+msgstr ""
+
+#: ../include/admin_forms.php:373
+msgid "Order options"
+msgstr ""
+
+#: ../include/admin_forms.php:390
+msgid "Price options"
+msgstr ""
+
+#: ../include/admin_forms.php:406
+msgid "Price Step"
+msgstr ""
+
+#: ../include/admin_forms.php:407 ../include/admin_forms.php:496
+#: ../include/admin_forms_taxonomies.php:169
+msgid "Enter Number"
+msgstr ""
+
+#: ../include/admin_forms.php:416
+msgid "status options"
+msgstr ""
+
+#: ../include/admin_forms.php:432
+msgid "SKU options"
+msgstr ""
+
+#: ../include/admin_forms.php:450
+msgid ""
+"If you need to have a search form above your table, you should enable "
+"“Search Form”, after that you can customize the search form and Show/Hide "
+"search fields. For example you can enable “Category” fields. In this case, "
+"user can search for specific “Category”.\n"
+"\n"
+"You can choose your pagination type too.\n"
+"-\tLoad More\n"
+"-\tNumeric"
+msgstr ""
+
+#: ../include/admin_forms.php:462
+msgid "Select Template"
+msgstr ""
+
+#: ../include/admin_forms.php:469
+msgid ""
+"Template and style is the most important section of this plugin. We provided "
+"some pre template that you can select them for your table Otherwise there is "
+"a special section for “Add Templates”"
+msgstr ""
+
+#: ../include/admin_forms.php:478
+msgid "Product Options"
+msgstr ""
+
+#: ../include/admin_forms.php:482
+msgid "Description Type"
+msgstr ""
+
+#: ../include/admin_forms.php:486
+msgid "Excerpt"
+msgstr ""
+
+#: ../include/admin_forms.php:489
+msgid "Full Description"
+msgstr ""
+
+#: ../include/admin_forms.php:495
+msgid "Description Length Number"
+msgstr ""
+
+#: ../include/admin_forms.php:506 ../include/admin_forms.php:2166
+msgid "Enable Product Link"
+msgstr ""
+
+#: ../include/admin_forms.php:509 ../include/admin_forms.php:534
+#: ../include/admin_forms.php:729 ../include/admin_forms.php:741
+#: ../include/admin_forms.php:2169 ../include/admin_forms.php:2194
+#: ../include/admin_forms.php:2218 ../include/admin_forms.php:2228
+#: ../include/admin_forms.php:2247 ../include/admin_forms.php:2256
+#: ../include/admin_forms.php:2265
+msgid "No"
+msgstr ""
+
+#: ../include/admin_forms.php:510 ../include/admin_forms.php:535
+#: ../include/admin_forms.php:730 ../include/admin_forms.php:742
+#: ../include/admin_forms.php:2170 ../include/admin_forms.php:2195
+#: ../include/admin_forms.php:2219 ../include/admin_forms.php:2229
+#: ../include/admin_forms.php:2248 ../include/admin_forms.php:2257
+#: ../include/admin_forms.php:2266
+msgid "Yes"
+msgstr ""
+
+#: ../include/admin_forms.php:515 ../include/admin_forms.php:2175
+msgid "Product Link Open Type"
+msgstr ""
+
+#: ../include/admin_forms.php:518 ../include/admin_forms.php:543
+#: ../include/admin_forms.php:2183 ../include/admin_forms.php:2208
+msgid "New Tab"
+msgstr ""
+
+#: ../include/admin_forms.php:519 ../include/admin_forms.php:544
+#: ../include/admin_forms.php:2184 ../include/admin_forms.php:2209
+msgid "Self Tab"
+msgstr ""
+
+#: ../include/admin_forms.php:531 ../include/admin_forms.php:2191
+msgid "Enable Category/Tag Link"
+msgstr ""
+
+#: ../include/admin_forms.php:540 ../include/admin_forms.php:2200
+msgid "Category/Tag Link Open Type"
+msgstr ""
+
+#: ../include/admin_forms.php:555 ../include/admin_forms.php:2143
+msgid "Thumbs Image LightBox"
+msgstr ""
+
+#: ../include/admin_forms.php:558 ../include/admin_forms.php:648
+#: ../include/admin_forms.php:718 ../include/admin_forms.php:2137
+#: ../include/admin_forms.php:2146
+msgid "Disable"
+msgstr ""
+
+#: ../include/admin_forms.php:566 ../include/admin_forms.php:2153
+msgid "Thumbs Image Size"
+msgstr ""
+
+#: ../include/admin_forms.php:569 ../include/admin_forms.php:2156
+msgid "Thumbnail - Use in Shop page"
+msgstr ""
+
+#: ../include/admin_forms.php:571 ../include/admin_forms.php:2157
+msgid "Single - Use in single page"
+msgstr ""
+
+#: ../include/admin_forms.php:573 ../include/admin_forms.php:2158
+msgid "Gallery Thumbnail - Use in single page"
+msgstr ""
+
+#: ../include/admin_forms.php:575 ../include/admin_forms.php:2160
+msgid "Full"
+msgstr ""
+
+#: ../include/admin_forms.php:581
+msgid "Product Title In One Line"
+msgstr ""
+
+#: ../include/admin_forms.php:592
+msgid "Mini Cart Options"
+msgstr ""
+
+#: ../include/admin_forms.php:596
+msgid "Min Cart Positions"
+msgstr ""
+
+#: ../include/admin_forms.php:599 ../include/admin_forms.php:1374
+msgid "Table Header"
+msgstr ""
+
+#: ../include/admin_forms.php:604
+msgid "Table Footer"
+msgstr ""
+
+#: ../include/admin_forms.php:609
+msgid "Floating Mode"
+msgstr ""
+
+#: ../include/admin_forms.php:614
+msgid "Side Mode"
+msgstr ""
+
+#: ../include/admin_forms.php:622 ../include/admin_forms.php:2116
+msgid "Floating Cart Position"
+msgstr ""
+
+#: ../include/admin_forms.php:625 ../include/admin_forms.php:2119
+msgid "Bottom Right"
+msgstr ""
+
+#: ../include/admin_forms.php:626 ../include/admin_forms.php:2120
+msgid "Bottom Left"
+msgstr ""
+
+#: ../include/admin_forms.php:627 ../include/admin_forms.php:2121
+msgid "Top Right"
+msgstr ""
+
+#: ../include/admin_forms.php:628 ../include/admin_forms.php:2122
+msgid "Top Left"
+msgstr ""
+
+#: ../include/admin_forms.php:633 ../include/admin_forms.php:2127
+msgid "Floating Cart Size [Only Int]"
+msgstr ""
+
+#: ../include/admin_forms.php:640
+msgid "Other Options"
+msgstr ""
+
+#: ../include/admin_forms.php:644
+msgid "Ajax Action (Enable/Disable)"
+msgstr ""
+
+#: ../include/admin_forms.php:653
+msgid "Column Title In Header/Footer"
+msgstr ""
+
+#: ../include/admin_forms.php:656
+msgid "Hide Table Head"
+msgstr ""
+
+#: ../include/admin_forms.php:661
+msgid "Hide Table Footer"
+msgstr ""
+
+#: ../include/admin_forms.php:669
+msgid "Show \"Select All\" Checkbox"
+msgstr ""
+
+#: ../include/admin_forms.php:680
+msgid "\"Group Add To Cart\" Button"
+msgstr ""
+
+#: ../include/admin_forms.php:691
+msgid "Sticky Column"
+msgstr ""
+
+#: ../include/admin_forms.php:692
+msgid ""
+"If you enable sticky, \"Add to Cart\" and \"Check\" columns will be appeared "
+"in sticky area."
+msgstr ""
+
+#: ../include/admin_forms.php:704
+msgid "Show Variation In Action Column"
+msgstr ""
+
+#: ../include/admin_forms.php:707
+msgid "Show"
+msgstr ""
+
+#: ../include/admin_forms.php:715 ../include/admin_forms.php:2134
+msgid "Popup Notice [New]"
+msgstr ""
+
+#: ../include/admin_forms.php:724 ../include/admin_forms.php:2215
+msgid "Direct Checkout Page[for Add to cart Selected]"
+msgstr ""
+
+#: ../include/admin_forms.php:725
+msgid "Before click on group add to cart redirect to checkout page."
+msgstr ""
+
+#: ../include/admin_forms.php:735 ../include/admin_forms.php:2224
+msgid "Enable Quick Buy Button [Direct Checkout Page for each product]"
+msgstr ""
+
+#: ../include/admin_forms.php:737
+msgid "Before click on product add to cart redirect to checkout page."
+msgstr ""
+
+#: ../include/admin_forms.php:747
+msgid "Custom Class"
+msgstr ""
+
+#: ../include/admin_forms.php:748
+msgid "Example: ClassA ClassB"
+msgstr ""
+
+#: ../include/admin_forms.php:754
+msgid ""
+"1- Product Options: We have some options for each table row, such as:\n"
+"                a.\tDescription Type: You can show “Excerpt” or “Content” of "
+"product as description.\n"
+"b.\tDescription Length: How much content to display?\n"
+"c.\tProduct Link: Set product title be linkable or not.\n"
+"d.\tThumbs Image Light Box: Display product image in LightBox\n"
+"e.\tProduct Title in One Line: Display wrapped product title\n"
+"2-\tMini Cart Options: \n"
+"There are 4 types of Mini Cart.\n"
+"a-\tHeader: Display Cart above table.\n"
+"b-\tFooter: Display Cart below table.\n"
+"c-\tFloating Cart: Display cart as floating mode beside (you can set "
+"position) table.\n"
+"d-\tSide Mode: Display cart as side mode.\n"
+"You can set “Floating Cart Position” and “Cart Size” too.\n"
+"3-\tOther Options: There are some remaining options for table management.\n"
+"a-\tAjax Action: If you “Enable” it, “Add to Cart” action will be done as "
+"Ajax mode, otherwise It will be redirect to Product Single page.\n"
+"b-\tShow/Hide table title in Header and Footer\n"
+"c-\tShow “Select All Checkbox”: We have a check box for each row, User have "
+"to select one by one, if user want select all products, but user could click "
+"this check box (Select All) and select all of products at same time.\n"
+"d-\t“Group Add to Cart” Button: User can add all of selected product to "
+"cart, by one click.\n"
+"e-\tShow Variation in Action Column: There is an amazing popup for variable "
+"products, after click it appears all of variations. User can select "
+"variation set and then add to cart.\n"
+"f-\tPopup Notice: Show a notice when a new item is added to the card.\n"
+"g-\tDirect Checkout Page: If “Enable”, after click on “Add to Cart “, it "
+"will be redirect to checkout page directly.\n"
+"h-\tQuick Buy:  After Click On Product Add to Cart Redirect to Checkout "
+"Page.\n"
+"i-\tSticky Column: If You Enable Sticky, \"Add To Cart\" And \"Check\" "
+"Columns Will Be Appeared In Sticky Area."
+msgstr ""
+
+#: ../include/admin_forms.php:785 ../include/admin_forms.php:2276
+msgid "Add to cart Text"
+msgstr ""
+
+#: ../include/admin_forms.php:786 ../include/admin_forms.php:793
+#: ../include/admin_forms.php:800 ../include/admin_forms.php:807
+#: ../include/admin_forms.php:814 ../include/admin_forms.php:825
+#: ../include/admin_forms.php:832 ../include/admin_forms.php:839
+#: ../include/admin_forms.php:846 ../include/admin_forms.php:853
+#: ../include/admin_forms.php:860 ../include/admin_forms.php:867
+#: ../include/admin_forms.php:874 ../include/admin_forms.php:881
+#: ../include/admin_forms.php:888 ../include/admin_forms.php:895
+#: ../include/admin_forms.php:902 ../include/admin_forms.php:909
+#: ../include/admin_forms.php:915 ../include/admin_forms.php:922
+#: ../include/admin_forms.php:929 ../include/admin_forms.php:936
+#: ../include/admin_forms.php:943 ../include/admin_forms.php:950
+#: ../include/admin_forms.php:957 ../include/admin_forms.php:964
+#: ../include/admin_forms.php:971 ../include/admin_forms.php:978
+#: ../include/admin_forms.php:985 ../include/admin_forms.php:992
+#: ../include/admin_forms.php:1003 ../include/admin_forms.php:1010
+#: ../include/admin_forms.php:1017 ../include/admin_forms.php:1028
+#: ../include/admin_forms.php:1035 ../include/admin_forms.php:1043
+#: ../include/admin_forms.php:1051 ../include/admin_forms.php:1058
+#: ../include/admin_forms.php:1068 ../include/admin_forms.php:1076
+#: ../include/admin_forms.php:1084 ../include/admin_forms.php:1092
+#: ../include/admin_forms.php:1099 ../include/admin_forms.php:1107
+#: ../include/admin_forms.php:1114 ../include/admin_forms.php:1122
+#: ../include/admin_forms.php:1129 ../include/admin_forms.php:2277
+#: ../include/admin_forms.php:2283 ../include/admin_forms.php:2289
+#: ../include/admin_forms.php:2295 ../include/admin_forms.php:2301
+#: ../include/admin_forms.php:2307 ../include/admin_forms.php:2313
+#: ../include/admin_forms.php:2319 ../include/admin_forms.php:2325
+#: ../include/admin_forms.php:2331 ../include/admin_forms.php:2337
+#: ../include/admin_forms.php:2343 ../include/admin_forms.php:2349
+#: ../include/admin_forms.php:2355 ../include/admin_forms.php:2361
+#: ../include/admin_forms.php:2367 ../include/admin_forms.php:2373
+#: ../include/admin_forms.php:2379 ../include/admin_forms.php:2385
+#: ../include/admin_forms.php:2391 ../include/admin_forms.php:2397
+#: ../include/admin_forms.php:2403 ../include/admin_forms.php:2409
+#: ../include/admin_forms.php:2415 ../include/admin_forms.php:2421
+#: ../include/admin_forms.php:2427 ../include/admin_forms.php:2433
+#: ../include/admin_forms.php:2439 ../include/admin_forms.php:2445
+#: ../include/admin_forms.php:2451 ../include/admin_forms.php:2457
+#: ../include/admin_forms.php:2463 ../include/admin_forms.php:2469
+#: ../include/admin_forms.php:2475 ../include/admin_forms.php:2481
+#: ../include/admin_forms.php:2487 ../include/admin_forms.php:2497
+#: ../include/admin_forms.php:2503 ../include/admin_forms.php:2513
+#: ../include/admin_forms.php:2519 ../include/admin_forms.php:2525
+#: ../include/admin_forms.php:2535 ../include/admin_forms.php:2541
+#: ../include/admin_forms.php:2548 ../include/admin_forms.php:2555
+#: ../include/admin_forms.php:2561 ../include/admin_forms.php:2568
+#: ../include/admin_forms.php:2574 ../include/admin_forms.php:2580
+#: ../include/admin_forms.php:2609 ../include/admin_forms.php:2640
+#: ../include/admin_forms.php:2671 ../include/admin_forms.php:2700
+#: ../include/admin_forms.php:2729 ../include/admin_forms.php:2735
+#: ../include/admin_forms.php:2741 ../include/admin_forms.php:2747
+#: ../include/admin_forms.php:2778 ../include/admin_forms.php:2818
+msgid "Enter Text"
+msgstr ""
+
+#: ../include/admin_forms.php:787 ../include/admin_forms.php:788
+#: ../include/admin_forms.php:2278 ../include/admin_template_page.php:112
+#: ../include/admin_template_page.php:245
+#: ../include/admin_template_page.php:343
+#: ../include/admin_template_page.php:395
+msgid "Add To Cart"
+msgstr ""
+
+#: ../include/admin_forms.php:792 ../include/admin_forms.php:2282
+msgid "Add to cart (Added) Text"
+msgstr ""
+
+#: ../include/admin_forms.php:794 ../include/admin_forms.php:795
+#: ../include/admin_forms.php:2284 ../include/front_shortcode.php:79
+msgid "Added"
+msgstr ""
+
+#: ../include/admin_forms.php:799 ../include/admin_forms.php:2288
+msgid "Add to cart (Adding..) Text"
+msgstr ""
+
+#: ../include/admin_forms.php:801 ../include/admin_forms.php:802
+#: ../include/admin_forms.php:2290
+msgid "Adding..."
+msgstr ""
+
+#: ../include/admin_forms.php:806 ../include/admin_forms.php:2294
+msgid "Add to cart (Selected) Text"
+msgstr ""
+
+#: ../include/admin_forms.php:808 ../include/admin_forms.php:809
+#: ../include/admin_forms.php:2296
+msgid "Add To Cart Products"
+msgstr ""
+
+#: ../include/admin_forms.php:813 ../include/admin_forms.php:2300
+msgid "All Check/Uncheck Text"
+msgstr ""
+
+#: ../include/admin_forms.php:815 ../include/admin_forms.php:816
+#: ../include/admin_forms.php:2302 ../include/admin_template_page.php:104
+msgid "Select All"
+msgstr ""
+
+#: ../include/admin_forms.php:820 ../include/admin_forms.php:2272
+msgid "Label Text"
+msgstr ""
+
+#: ../include/admin_forms.php:824 ../include/admin_forms.php:2306
+msgid "[Load More] - Button Text"
+msgstr ""
+
+#: ../include/admin_forms.php:826 ../include/admin_forms.php:827
+#: ../include/admin_forms.php:2308
+msgid "Load more"
+msgstr ""
+
+#: ../include/admin_forms.php:831 ../include/admin_forms.php:2312
+msgid "Next Pagination Button Text"
+msgstr ""
+
+#: ../include/admin_forms.php:833 ../include/admin_forms.php:834
+#: ../include/admin_forms.php:2314
+msgid "Next"
+msgstr ""
+
+#: ../include/admin_forms.php:838 ../include/admin_forms.php:2318
+msgid "Previous Pagination Button Text"
+msgstr ""
+
+#: ../include/admin_forms.php:840 ../include/admin_forms.php:841
+#: ../include/admin_forms.php:2320
+msgid "Previous"
+msgstr ""
+
+#: ../include/admin_forms.php:845 ../include/admin_forms.php:2324
+msgid "[Search] - Button Text"
+msgstr ""
+
+#: ../include/admin_forms.php:847 ../include/admin_forms.php:848
+#: ../include/admin_forms.php:2326 ../include/admin_template_page.php:121
+msgid "Search"
+msgstr ""
+
+#: ../include/admin_forms.php:852 ../include/admin_forms.php:2330
+msgid "[Search Keyword] - Text"
+msgstr ""
+
+#: ../include/admin_forms.php:854 ../include/admin_forms.php:855
+#: ../include/admin_forms.php:2332
+msgid "Search Keyword"
+msgstr ""
+
+#: ../include/admin_forms.php:859 ../include/admin_forms.php:2336
+msgid "[Loading..] - Button Text"
+msgstr ""
+
+#: ../include/admin_forms.php:861 ../include/admin_forms.php:862
+#: ../include/admin_forms.php:2338
+msgid "Loading.."
+msgstr ""
+
+#: ../include/admin_forms.php:866 ../include/admin_forms.php:2342
+msgid "Item [for Singular]"
+msgstr ""
+
+#: ../include/admin_forms.php:868 ../include/admin_forms.php:869
+#: ../include/admin_forms.php:2344
+msgid "Item"
+msgstr ""
+
+#: ../include/admin_forms.php:873 ../include/admin_forms.php:2348
+msgid "Item [for Plural]"
+msgstr ""
+
+#: ../include/admin_forms.php:875 ../include/admin_forms.php:876
+#: ../include/admin_forms.php:2350
+msgid "Items"
+msgstr ""
+
+#: ../include/admin_forms.php:880 ../include/admin_forms.php:2354
+msgid "SearchBox Order By text"
+msgstr ""
+
+#: ../include/admin_forms.php:882 ../include/admin_forms.php:883
+#: ../include/admin_forms.php:2356
+msgid "Order By"
+msgstr ""
+
+#: ../include/admin_forms.php:887 ../include/admin_forms.php:2360
+msgid "SearchBox Order text"
+msgstr ""
+
+#: ../include/admin_forms.php:889 ../include/admin_forms.php:890
+#: ../include/admin_forms.php:2362 ../include/admin_forms_taxonomies.php:130
+#: ../include/admin_template_page.php:170
+#: ../include/admin_template_page.php:179
+msgid "Order"
+msgstr ""
+
+#: ../include/admin_forms.php:894 ../include/admin_forms.php:2366
+msgid "SearchBox Min Price"
+msgstr ""
+
+#: ../include/admin_forms.php:896 ../include/admin_forms.php:897
+#: ../include/admin_forms.php:2368
+msgid "Min Price"
+msgstr ""
+
+#: ../include/admin_forms.php:901 ../include/admin_forms.php:2372
+msgid "SearchBox Max Price"
+msgstr ""
+
+#: ../include/admin_forms.php:903 ../include/admin_forms.php:904
+#: ../include/admin_forms.php:2374
+msgid "Max Price"
+msgstr ""
+
+#: ../include/admin_forms.php:908 ../include/admin_forms.php:2378
+msgid "SearchBox Status"
+msgstr ""
+
+#: ../include/admin_forms.php:914 ../include/admin_forms.php:2384
+msgid "SearchBox SKU Text"
+msgstr ""
+
+#: ../include/admin_forms.php:921 ../include/admin_forms.php:2390
+msgid "[Type your Message.] Message"
+msgstr ""
+
+#: ../include/admin_forms.php:923 ../include/admin_forms.php:924
+#: ../include/admin_forms.php:2392
+msgid "Type your Message."
+msgstr ""
+
+#: ../include/admin_forms.php:928 ../include/admin_forms.php:2396
+msgid "Sticky Column Label Text"
+msgstr ""
+
+#: ../include/admin_forms.php:935
+msgid "Fixed Cart - Open Cart Text"
+msgstr ""
+
+#: ../include/admin_forms.php:937 ../include/admin_forms.php:938
+#: ../include/admin_forms.php:2404
+msgid "Open Cart"
+msgstr ""
+
+#: ../include/admin_forms.php:942
+msgid "Fixed Cart - Close Cart Text"
+msgstr ""
+
+#: ../include/admin_forms.php:944 ../include/admin_forms.php:945
+#: ../include/admin_forms.php:2410
+msgid "Close Cart"
+msgstr ""
+
+#: ../include/admin_forms.php:949 ../include/admin_forms.php:2414
+msgid "Cart Label Text"
+msgstr ""
+
+#: ../include/admin_forms.php:951 ../include/admin_forms.php:952
+#: ../include/admin_forms.php:1175 ../include/admin_forms.php:2416
+#: ../include/admin_template_page.php:483
+msgid "Cart"
+msgstr ""
+
+#: ../include/admin_forms.php:956 ../include/admin_forms.php:2420
+msgid "Clear Cart Button Text"
+msgstr ""
+
+#: ../include/admin_forms.php:958 ../include/admin_forms.php:959
+msgid "Cart Clear"
+msgstr ""
+
+#: ../include/admin_forms.php:963 ../include/admin_forms.php:2426
+msgid "Cart Subtotal Text"
+msgstr ""
+
+#: ../include/admin_forms.php:965 ../include/admin_forms.php:966
+#: ../include/admin_forms.php:2428 ../include/admin_template_page.php:78
+#: ../include/admin_template_page.php:527
+msgid "Subtotal"
+msgstr ""
+
+#: ../include/admin_forms.php:970 ../include/admin_forms.php:2432
+msgid "Cart Check Out Text"
+msgstr ""
+
+#: ../include/admin_forms.php:972 ../include/admin_forms.php:973
+#: ../include/admin_forms.php:2434 ../include/admin_template_page.php:88
+#: ../include/admin_template_page.php:535
+msgid "Check Out"
+msgstr ""
+
+#: ../include/admin_forms.php:977 ../include/admin_forms.php:2438
+msgid "View Cart Text"
+msgstr ""
+
+#: ../include/admin_forms.php:979 ../include/admin_forms.php:980
+#: ../include/admin_forms.php:2440 ../include/admin_template_page.php:93
+#: ../include/admin_template_page.php:540
+msgid "View Cart"
+msgstr ""
+
+#: ../include/admin_forms.php:984 ../include/admin_forms.php:2444
+msgid "Items Number Cart Text"
+msgstr ""
+
+#: ../include/admin_forms.php:986 ../include/admin_forms.php:987
+#: ../include/admin_forms.php:2446 ../include/admin_template_page.php:80
+#: ../include/admin_template_page.php:542
+msgid "Items In Cart"
+msgstr ""
+
+#: ../include/admin_forms.php:991 ../include/admin_forms.php:2450
+msgid "Empty Cart Message"
+msgstr ""
+
+#: ../include/admin_forms.php:993 ../include/admin_forms.php:994
+#: ../include/admin_forms.php:2452
+msgid "Empty Cart"
+msgstr ""
+
+#: ../include/admin_forms.php:998 ../include/admin_forms.php:2508
+msgid "TABLE'S DEFAULT CONTENT "
+msgstr ""
+
+#: ../include/admin_forms.php:1002 ../include/admin_forms.php:2512
+msgid "[In Stock] for Table Column"
+msgstr ""
+
+#: ../include/admin_forms.php:1004 ../include/admin_forms.php:1005
+#: ../include/admin_forms.php:2514 ../include/admin_forms_taxonomies.php:163
+#: ../include/admin_template_page.php:175
+#: ../include/admin_template_page.php:234 ../include/front_shortcode.php:713
+msgid "In Stock"
+msgstr ""
+
+#: ../include/admin_forms.php:1009 ../include/admin_forms.php:2518
+msgid "[Out of Stock] for Table Column"
+msgstr ""
+
+#: ../include/admin_forms.php:1011 ../include/admin_forms.php:1012
+#: ../include/admin_forms.php:1059 ../include/admin_forms.php:1060
+#: ../include/admin_forms.php:2520 ../include/admin_forms.php:2562
+#: ../include/admin_template_page.php:332
+msgid "Out of Stock"
+msgstr ""
+
+#: ../include/admin_forms.php:1016 ../include/admin_forms.php:2524
+msgid "[On Back Order] for Table Column\t"
+msgstr ""
+
+#: ../include/admin_forms.php:1018 ../include/admin_forms.php:1019
+#: ../include/admin_forms.php:1036 ../include/admin_forms.php:1037
+#: ../include/admin_forms.php:2049 ../include/admin_forms.php:2526
+msgid "On Back Order"
+msgstr ""
+
+#: ../include/admin_forms.php:1023 ../include/admin_forms.php:2530
+msgid "ALL MESSAGES"
+msgstr ""
+
+#: ../include/admin_forms.php:1027 ../include/admin_forms.php:2534
+msgid "[Products Not founded!] - Message Text"
+msgstr ""
+
+#: ../include/admin_forms.php:1029 ../include/admin_forms.php:1030
+#: ../include/admin_forms.php:2536
+msgid "Products Not founded!"
+msgstr ""
+
+#: ../include/admin_forms.php:1034 ../include/admin_forms.php:2540
+msgid "Variations [Not available] Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1041 ../include/admin_forms.php:2546
+msgid ""
+"[Product variations are not set Properly. May be: price is not inputted. may "
+"be: Out of Stock.] Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1044 ../include/admin_forms.php:1045
+#: ../include/admin_forms.php:2549
+msgid ""
+"Product variations are not set Properly. May be: price is not inputted. may "
+"be: Out of Stock."
+msgstr ""
+
+#: ../include/admin_forms.php:1050 ../include/admin_forms.php:2554
+msgid "[Please select all items.] Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1052 ../include/admin_forms.php:1053
+#: ../include/admin_forms.php:2556
+msgid "Please select all items."
+msgstr ""
+
+#: ../include/admin_forms.php:1057 ../include/admin_forms.php:2560
+msgid "[Out of Stock] Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1065 ../include/admin_forms.php:2566
+msgid "[There are no more products based on current Query.] Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1069 ../include/admin_forms.php:1070
+#: ../include/admin_forms.php:2569
+msgid "There are no more products based on current Query."
+msgstr ""
+
+#: ../include/admin_forms.php:1075 ../include/admin_forms.php:2573
+msgid "[ No Right Combination ] Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1077 ../include/admin_forms.php:1078
+#: ../include/admin_forms.php:2575
+msgid "No Right Combination"
+msgstr ""
+
+#: ../include/admin_forms.php:1082 ../include/admin_forms.php:2579
+msgid "[ Sorry, Please choose right combination. ] Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1085 ../include/admin_forms.php:1086
+#: ../include/admin_forms.php:2581
+msgid "Sorry, Please choose right combination."
+msgstr ""
+
+#: ../include/admin_forms.php:1091 ../include/admin_forms.php:2456
+msgid "Cart Update Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1093 ../include/admin_forms.php:1094
+msgid "Cart has been Updated"
+msgstr ""
+
+#: ../include/admin_forms.php:1098
+msgid "Error in Cart Update Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1100 ../include/admin_forms.php:1101
+msgid "Error! Cart Could not be Updated"
+msgstr ""
+
+#: ../include/admin_forms.php:1106 ../include/admin_forms.php:2468
+msgid "Product Added Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1108 ../include/admin_forms.php:1109
+msgid "Product has been Added"
+msgstr ""
+
+#: ../include/admin_forms.php:1113
+msgid "Error in Add Product Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1115 ../include/admin_forms.php:1116
+msgid "Error! Product Could not be Added"
+msgstr ""
+
+#: ../include/admin_forms.php:1121 ../include/admin_forms.php:2480
+msgid "Product Deleted Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1123 ../include/admin_forms.php:1124
+msgid "Product has been Deleted"
+msgstr ""
+
+#: ../include/admin_forms.php:1128
+msgid "Error in Delete Product Message"
+msgstr ""
+
+#: ../include/admin_forms.php:1130 ../include/admin_forms.php:1131
+msgid "Error! Product Could not be Deleted"
+msgstr ""
+
+#: ../include/admin_forms.php:1138
+msgid "Translate determine fields directly without WPML plugins."
+msgstr ""
+
+#: ../include/admin_forms.php:1153
+msgid "Template Name"
+msgstr ""
+
+#: ../include/admin_forms.php:1154
+msgid "Enter Name"
+msgstr ""
+
+#: ../include/admin_forms.php:1164
+msgid "Template Image"
+msgstr ""
+
+#: ../include/admin_forms.php:1179 ../include/admin_forms.php:1378
+#: ../include/admin_forms.php:1493 ../include/admin_forms.php:1670
+#: ../include/admin_forms.php:1718 ../include/admin_forms.php:1810
+#: ../include/admin_forms.php:1869 ../include/admin_forms.php:1917
+msgid "Background Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1190
+msgid "Title Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1201
+msgid "Meta Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1212
+msgid "Button Fixed Background Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1223
+msgid "Button Fixed Text Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1234 ../include/admin_forms.php:1762
+msgid "Button Background Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1245 ../include/admin_forms.php:1773
+msgid "Button Text Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1256
+msgid "Alarm"
+msgstr ""
+
+#: ../include/admin_forms.php:1260
+msgid "Alarm Success Background Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1271
+msgid "Alarm Success Text Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1282
+msgid "Alarm Error Background Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1293
+msgid "Alarm Error Text Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1304
+msgid "Control Box"
+msgstr ""
+
+#: ../include/admin_forms.php:1308
+msgid "Background For Box"
+msgstr ""
+
+#: ../include/admin_forms.php:1319
+msgid "Text Color For Box"
+msgstr ""
+
+#: ../include/admin_forms.php:1330
+msgid "Background Buttons"
+msgstr ""
+
+#: ../include/admin_forms.php:1341
+msgid "Text Color Buttons"
+msgstr ""
+
+#: ../include/admin_forms.php:1352
+msgid "Background Buttons(Hover)"
+msgstr ""
+
+#: ../include/admin_forms.php:1363
+msgid "Text Color Buttons(Hover)"
+msgstr ""
+
+#: ../include/admin_forms.php:1389 ../include/admin_forms.php:1515
+msgid "Border Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1400 ../include/admin_forms.php:1526
+#: ../include/admin_forms.php:1692 ../include/admin_forms.php:1729
+#: ../include/admin_forms.php:1832 ../include/admin_forms.php:1891
+#: ../include/admin_forms.php:1928
+msgid "Text Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1411 ../include/admin_forms.php:1616
+msgid "Border Width"
+msgstr ""
+
+#: ../include/admin_forms.php:1412
+msgid "Set Border Width"
+msgstr ""
+
+#: ../include/admin_forms.php:1424
+msgid "Padding"
+msgstr ""
+
+#: ../include/admin_forms.php:1425 ../include/admin_forms.php:1604
+msgid "Set Padding"
+msgstr ""
+
+#: ../include/admin_forms.php:1437
+msgid "Text Alignment"
+msgstr ""
+
+#: ../include/admin_forms.php:1440 ../include/admin_forms.php:1459
+msgid "Inherit"
+msgstr ""
+
+#: ../include/admin_forms.php:1441 ../include/admin_forms.php:1460
+msgid "Initial"
+msgstr ""
+
+#: ../include/admin_forms.php:1442
+msgid "Left"
+msgstr ""
+
+#: ../include/admin_forms.php:1443
+msgid "Center"
+msgstr ""
+
+#: ../include/admin_forms.php:1444
+msgid "Right"
+msgstr ""
+
+#: ../include/admin_forms.php:1445
+msgid "Justify"
+msgstr ""
+
+#: ../include/admin_forms.php:1456
+msgid "Text Transform"
+msgstr ""
+
+#: ../include/admin_forms.php:1461
+msgid "Capitalize"
+msgstr ""
+
+#: ../include/admin_forms.php:1462
+msgid "Uppercase"
+msgstr ""
+
+#: ../include/admin_forms.php:1463
+msgid "Lowercase"
+msgstr ""
+
+#: ../include/admin_forms.php:1464
+msgid "Unset"
+msgstr ""
+
+#: ../include/admin_forms.php:1465
+msgid "None"
+msgstr ""
+
+#: ../include/admin_forms.php:1476
+msgid "Font Size"
+msgstr ""
+
+#: ../include/admin_forms.php:1477
+msgid "Set "
+msgstr ""
+
+#: ../include/admin_forms.php:1489
+msgid "Table Body"
+msgstr ""
+
+#: ../include/admin_forms.php:1504 ../include/admin_forms.php:1681
+#: ../include/admin_forms.php:1821 ../include/admin_forms.php:1880
+msgid "Hover Background Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1537
+msgid "Link Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1548
+msgid "Hover Link Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1559
+msgid "Strip Background Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1570
+msgid "Strip Background Color(Hover)"
+msgstr ""
+
+#: ../include/admin_forms.php:1581
+msgid "Strip Text Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1592
+msgid "Sorted Column BG Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1603
+msgid "TD Padding"
+msgstr ""
+
+#: ../include/admin_forms.php:1617
+msgid "Set Width"
+msgstr ""
+
+#: ../include/admin_forms.php:1629
+msgid "Table Checkbox Style"
+msgstr ""
+
+#: ../include/admin_forms.php:1633
+msgid "Checkbox Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1644
+msgid "Checkbox Border Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1655
+msgid "Checkbox Sign Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1666
+msgid "Variation Button Style"
+msgstr ""
+
+#: ../include/admin_forms.php:1703 ../include/admin_forms.php:1843
+#: ../include/admin_forms.php:1902
+msgid "Hover Text Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1714
+msgid "Variation Popup"
+msgstr ""
+
+#: ../include/admin_forms.php:1740
+msgid "Select Border Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1751
+msgid "Select Text Color"
+msgstr ""
+
+#: ../include/admin_forms.php:1784
+msgid "Button Background Color(Hover)"
+msgstr ""
+
+#: ../include/admin_forms.php:1795
+msgid "Button Text Color(Hover)"
+msgstr ""
+
+#: ../include/admin_forms.php:1806
+msgid "Add Button And View Cart Style"
+msgstr ""
+
+#: ../include/admin_forms.php:1854
+msgid "Add to cart icon"
+msgstr ""
+
+#: ../include/admin_forms.php:1857
+msgid "No Icon"
+msgstr ""
+
+#: ../include/admin_forms.php:1858
+msgid "Only Icon"
+msgstr ""
+
+#: ../include/admin_forms.php:1859
+msgid "Left Icon And Text"
+msgstr ""
+
+#: ../include/admin_forms.php:1860
+msgid "Text And Right Icon"
+msgstr ""
+
+#: ../include/admin_forms.php:1865
+msgid "Other Button Style"
+msgstr ""
+
+#: ../include/admin_forms.php:1913
+msgid "Table Pagination And Load More Style"
+msgstr ""
+
+#: ../include/admin_forms.php:1939
+msgid "Background Color(Current Page For Pagination)"
+msgstr ""
+
+#: ../include/admin_forms.php:1950
+msgid "Text Color(Current Page For Pagination)"
+msgstr ""
+
+#: ../include/admin_forms.php:1961
+msgid "Second Color(For Load More)"
+msgstr ""
+
+#: ../include/admin_forms.php:1972
+msgid "Advance Searchbox Field Control"
+msgstr ""
+
+#: ../include/admin_forms.php:1976
+msgid "Column Fields"
+msgstr ""
+
+#: ../include/admin_forms.php:1979
+msgid "1"
+msgstr ""
+
+#: ../include/admin_forms.php:1980
+msgid "2"
+msgstr ""
+
+#: ../include/admin_forms.php:1981
+msgid "3"
+msgstr ""
+
+#: ../include/admin_forms.php:1982
+msgid "4"
+msgstr ""
+
+#: ../include/admin_forms.php:1983
+msgid "5"
+msgstr ""
+
+#: ../include/admin_forms.php:1984
+msgid "6"
+msgstr ""
+
+#: ../include/admin_forms.php:1985
+msgid "7"
+msgstr ""
+
+#: ../include/admin_forms.php:1986
+msgid "8"
+msgstr ""
+
+#: ../include/admin_forms.php:1987
+msgid "9"
+msgstr ""
+
+#: ../include/admin_forms.php:1988
+msgid "10"
+msgstr ""
+
+#: ../include/admin_forms.php:1989
+msgid "11"
+msgstr ""
+
+#: ../include/admin_forms.php:1990
+msgid "12"
+msgstr ""
+
+#: ../include/admin_forms.php:2001
+msgid "Others"
+msgstr ""
+
+#: ../include/admin_forms.php:2005
+msgid "Qty Background Color"
+msgstr ""
+
+#: ../include/admin_forms.php:2016
+msgid "Qty Text Color"
+msgstr ""
+
+#: ../include/admin_forms.php:2027
+msgid "In Stock Text Color"
+msgstr ""
+
+#: ../include/admin_forms.php:2038
+msgid "Out Stock Text Color"
+msgstr ""
+
+#: ../include/admin_forms.php:2060
+msgid "Shadow Color"
+msgstr ""
+
+#: ../include/admin_forms.php:2071
+msgid "Thumbnail Shape"
+msgstr ""
+
+#: ../include/admin_forms.php:2074
+msgid "square"
+msgstr ""
+
+#: ../include/admin_forms.php:2075
+msgid "square with radius"
+msgstr ""
+
+#: ../include/admin_forms.php:2076
+msgid "circle"
+msgstr ""
+
+#: ../include/admin_forms.php:2087
+msgid "Thumbs Image Size [Only Int]"
+msgstr ""
+
+#: ../include/admin_forms.php:2088
+msgid "Enter Size"
+msgstr ""
+
+#: ../include/admin_forms.php:2103
+msgid "Select"
+msgstr ""
+
+#: ../include/admin_forms.php:2234
+msgid "Replace WooComerce default page with Woo Product Table"
+msgstr ""
+
+#: ../include/admin_forms.php:2238
+msgid "Select Product Table"
+msgstr ""
+
+#: ../include/admin_forms.php:2244
+msgid "Shop page"
+msgstr ""
+
+#: ../include/admin_forms.php:2253
+msgid "Product category archives"
+msgstr ""
+
+#: ../include/admin_forms.php:2262
+msgid "Product Search"
+msgstr ""
+
+#: ../include/admin_forms.php:2380
+msgid "Status"
+msgstr ""
+
+#: ../include/admin_forms.php:2402
+msgid "Open Cart Text Fixed Button Text"
+msgstr ""
+
+#: ../include/admin_forms.php:2408
+msgid "Close Cart Text Fixed Button Text"
+msgstr ""
+
+#: ../include/admin_forms.php:2422 ../include/admin_template_page.php:84
+#: ../include/admin_template_page.php:487
+msgid "Clear Cart"
+msgstr ""
+
+#: ../include/admin_forms.php:2458
+msgid "Cart Updated"
+msgstr ""
+
+#: ../include/admin_forms.php:2462
+msgid "Can Not Cart Update Message"
+msgstr ""
+
+#: ../include/admin_forms.php:2464
+msgid "Can Not Cart Updated"
+msgstr ""
+
+#: ../include/admin_forms.php:2470
+msgid "Product Added"
+msgstr ""
+
+#: ../include/admin_forms.php:2474
+msgid "Can Not Product Add Message"
+msgstr ""
+
+#: ../include/admin_forms.php:2476
+msgid "Can Not Product Add"
+msgstr ""
+
+#: ../include/admin_forms.php:2482
+msgid "Product Deleted"
+msgstr ""
+
+#: ../include/admin_forms.php:2486
+msgid "Con Not Product Deleted Message"
+msgstr ""
+
+#: ../include/admin_forms.php:2488
+msgid "Con Not Product Deleted"
+msgstr ""
+
+#: ../include/admin_forms.php:2492
+msgid "YITH PLUGINS "
+msgstr ""
+
+#: ../include/admin_forms.php:2496 ../include/admin_forms.php:2608
+msgid "[Quick View] - Button Text"
+msgstr ""
+
+#: ../include/admin_forms.php:2498 ../include/admin_forms.php:2619
+#: ../include/admin_forms.php:2620 ../include/admin_template_page.php:198
+#: ../include/admin_template_page.php:240
+#: ../include/admin_template_page.php:338
+#: ../include/admin_template_page.php:390
+#: ../include/admin_template_page.php:418 ../include/front_shortcode.php:74
+msgid "Quick View"
+msgstr ""
+
+#: ../include/admin_forms.php:2502 ../include/admin_forms.php:2699
+#: ../include/admin_forms.php:2777
+msgid "[Wishlist] - Button Text"
+msgstr ""
+
+#: ../include/admin_forms.php:2504
+msgid "Wish list"
+msgstr ""
+
+#: ../include/admin_forms.php:2542
+msgid "Not available"
+msgstr ""
+
+#: ../include/admin_forms.php:2599
+msgid "EXTERNAL PLUGIN'S [YITH]"
+msgstr ""
+
+#: ../include/admin_forms.php:2639 ../include/admin_forms.php:2670
+msgid "[Compare] - Button Text"
+msgstr ""
+
+#: ../include/admin_forms.php:2650 ../include/admin_forms.php:2651
+msgid "yith Compare"
+msgstr ""
+
+#: ../include/admin_forms.php:2681 ../include/admin_forms.php:2682
+msgid "Woo Compare"
+msgstr ""
+
+#: ../include/admin_forms.php:2710 ../include/admin_forms.php:2711
+#: ../include/admin_forms.php:2788 ../include/admin_forms.php:2789
+#: ../include/admin_template_page.php:197
+#: ../include/admin_template_page.php:417 ../include/front_shortcode.php:75
+msgid "Wish List"
+msgstr ""
+
+#: ../include/admin_forms.php:2728
+msgid "[Browse Quote list] - text"
+msgstr ""
+
+#: ../include/admin_forms.php:2734
+msgid "[Add to Quote] - button text"
+msgstr ""
+
+#: ../include/admin_forms.php:2740
+msgid "[Quote Adding] - text"
+msgstr ""
+
+#: ../include/admin_forms.php:2746
+msgid "[Quote Added] - text"
+msgstr ""
+
+#: ../include/admin_forms.php:2757 ../include/admin_forms.php:2758
+#: ../include/admin_template_page.php:201
+#: ../include/admin_template_page.php:421
+msgid "Quote Request"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:13
+msgid "Category / Taxonomy"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:40
+msgid " includes (Click to choose Terms)"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:52
+msgid " Exclude (Click to choose Terms)"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:86
+msgid "Paginations Options"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:90
+msgid "Pagination Mode"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:94
+msgid "Pagination"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:97
+#: ../include/admin_template_page.php:429
+msgid "Load More"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:105
+msgid "Order / OrderBy"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:109
+msgid "OrderBy"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:112
+#: ../include/admin_template_page.php:134 ../include/front_shortcode.php:817
+msgid "Title"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:115
+#: ../include/admin_template_page.php:137 ../include/front_shortcode.php:820
+msgid "Popularity"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:118
+#: ../include/admin_template_page.php:141 ../include/front_shortcode.php:823
+msgid "Stock Quantity"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:119
+#: ../include/admin_template_page.php:142 ../include/front_shortcode.php:824
+msgid "Random"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:132
+msgid "Ascending"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:133
+msgid "Descending"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:144
+msgid "Conditions"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:148
+msgid "Set Minimum Price"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:149
+#: ../include/admin_forms_taxonomies.php:154
+msgid "Enter Price"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:153
+msgid "Set Maximum Price"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:158
+msgid "Product Status"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:160
+#: ../include/admin_template_page.php:172 ../include/front_shortcode.php:710
+msgid "All"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:161
+#: ../include/admin_template_page.php:173
+msgid "Featured"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:162
+#: ../include/admin_template_page.php:174 ../include/front_shortcode.php:712
+msgid "On Sale"
+msgstr ""
+
+#: ../include/admin_forms_taxonomies.php:168
+msgid "Post Limit Number"
+msgstr ""
+
+#: ../include/admin_functions.php:16
+msgid "Woo Product Table"
+msgstr ""
+
+#: ../include/admin_functions.php:19
+msgid "Add New"
+msgstr ""
+
+#: ../include/admin_functions.php:22
+msgid "Templates"
+msgstr ""
+
+#: ../include/admin_functions.php:24 ../include/admin_page.php:141
+msgid "General"
+msgstr ""
+
+#: ../include/admin_functions.php:91 ../include/admin_functions.php:96
+#: ../include/admin_functions.php:99 ../include/admin_functions.php:100
+msgid "Your data has been saved."
+msgstr ""
+
+#: ../include/admin_functions.php:92
+msgid "Your Template will be deleted. Are you Sure?"
+msgstr ""
+
+#: ../include/admin_functions.php:94
+msgid "Template has been Deleted."
+msgstr ""
+
+#: ../include/admin_functions.php:95
+msgid "Template could not be Deleted."
+msgstr ""
+
+#: ../include/admin_functions.php:97 ../include/admin_functions.php:101
+#: ../include/admin_functions.php:103
+msgid "Error! Your data could not been Saved!"
+msgstr ""
+
+#: ../include/admin_functions.php:105
+msgid "Your shortcode will be deleted. Are you Sure?"
+msgstr ""
+
+#: ../include/admin_functions.php:107
+msgid "Your data has been Deleted."
+msgstr ""
+
+#: ../include/admin_functions.php:108
+msgid "Error! Your data could not been Deleted!"
+msgstr ""
+
+#: ../include/admin_functions.php:110
+msgid "A Copy of Shortcode Has been Generated."
+msgstr ""
+
+#: ../include/admin_functions.php:112
+msgid "Error! Please Try Again!"
+msgstr ""
+
+#: ../include/admin_functions.php:113 ../include/admin_functions.php:178
+msgid "Type select Options"
+msgstr ""
+
+#: ../include/admin_functions.php:114
+msgid "Copy to Clipboard!"
+msgstr ""
+
+#: ../include/admin_functions.php:886
+msgid "Remove Column"
+msgstr ""
+
+#: ../include/admin_functions.php:896
+msgid "Desktop (>768)"
+msgstr ""
+
+#: ../include/admin_functions.php:900
+msgid "Tablet (768 - 576)"
+msgstr ""
+
+#: ../include/admin_functions.php:904
+msgid "Mobile (<576)"
+msgstr ""
+
+#: ../include/admin_functions.php:930
+msgid "choose type"
+msgstr ""
+
+#: ../include/admin_functions.php:935
+msgid "Custom Taxonomy"
+msgstr ""
+
+#: ../include/admin_functions.php:937
+msgid "Custom Field"
+msgstr ""
+
+#: ../include/admin_functions.php:945
+msgid "keyword"
+msgstr ""
+
+#: ../include/admin_functions.php:951
+msgid "Select Taxonomy"
+msgstr ""
+
+#: ../include/admin_functions.php:958
+msgid "table column title/Name"
+msgstr ""
+
+#: ../include/admin_functions.php:965
+msgid "Add Column"
+msgstr ""
+
+#: ../include/admin_functions.php:1057 ../include/admin_template_page.php:23
+msgid "Add New Template"
+msgstr ""
+
+#: ../include/admin_functions.php:1123
+msgid "Error:"
+msgstr ""
+
+#: ../include/admin_functions.php:1124
+msgid " Can not create field. FIELDNAME="
+msgstr ""
+
+#: ../include/admin_functions.php:1125
+msgid ", TYPE= "
+msgstr ""
+
+#: ../include/admin_functions.php:1176
+msgid "Loading"
+msgstr ""
+
+#: ../include/admin_functions.php:2023 ../include/admin_functions.php:2039
+#: ../include/front-function.php:458
+msgid "Message"
+msgstr ""
+
+#: ../include/admin_general_page.php:11
+msgid "GENERAL"
+msgstr ""
+
+#: ../include/admin_page.php:12
+msgid "Product Table"
+msgstr ""
+
+#: ../include/admin_page.php:14
+msgid ""
+"make the best for yourself, just by clicking <br>on the new table you will "
+"create the best of your site."
+msgstr ""
+
+#: ../include/admin_page.php:35
+msgid "*"
+msgstr ""
+
+#: ../include/admin_page.php:36
+msgid "NAME"
+msgstr ""
+
+#: ../include/admin_page.php:37
+msgid "DATE"
+msgstr ""
+
+#: ../include/admin_page.php:38
+msgid "SHORTCODE"
+msgstr ""
+
+#: ../include/admin_page.php:39
+msgid "MORE"
+msgstr ""
+
+#: ../include/admin_page.php:64
+msgid "delete"
+msgstr ""
+
+#: ../include/admin_page.php:69
+msgid "edit"
+msgstr ""
+
+#: ../include/admin_page.php:73
+msgid "duplicate"
+msgstr ""
+
+#: ../include/admin_page.php:85
+msgid "This list is empty."
+msgstr ""
+
+#: ../include/admin_page.php:104 ../include/admin_page.php:109
+msgid "Support"
+msgstr ""
+
+#: ../include/admin_page.php:106
+msgid "iThemelandCo"
+msgstr ""
+
+#: ../include/admin_page.php:116
+msgid "Learn Product Table"
+msgstr ""
+
+#: ../include/admin_page.php:130
+msgid "New"
+msgstr ""
+
+#: ../include/admin_page.php:152
+msgid "Template"
+msgstr ""
+
+#: ../include/admin_page.php:164
+msgid "VIDEO LEARN IN <br> YOUTUBE"
+msgstr ""
+
+#: ../include/admin_page.php:166
+msgid "View Page"
+msgstr ""
+
+#: ../include/admin_template_page.php:12
+msgid "TEMPLATES"
+msgstr ""
+
+#: ../include/admin_template_page.php:21
+msgid "Update Template"
+msgstr ""
+
+#: ../include/admin_template_page.php:53
+msgid "Live Preview"
+msgstr ""
+
+#: ../include/admin_template_page.php:139
+msgid "Featured Products"
+msgstr ""
+
+#: ../include/admin_template_page.php:148 ../include/front_shortcode.php:830
+msgid "ASCENDING"
+msgstr ""
+
+#: ../include/admin_template_page.php:149 ../include/front_shortcode.php:831
+msgid "DESCENDING"
+msgstr ""
+
+#: ../include/admin_template_page.php:210
+msgid "Product 1"
+msgstr ""
+
+#: ../include/admin_template_page.php:215
+#: ../include/admin_template_page.php:313
+#: ../include/admin_template_page.php:365
+msgid "Down"
+msgstr ""
+
+#: ../include/admin_template_page.php:224
+#: ../include/admin_template_page.php:322
+#: ../include/admin_template_page.php:374
+msgid "Up"
+msgstr ""
+
+#: ../include/admin_template_page.php:237
+#: ../include/admin_template_page.php:335
+#: ../include/admin_template_page.php:387
+msgid "Compare"
+msgstr ""
+
+#: ../include/admin_template_page.php:264
+msgid "Title Variation"
+msgstr ""
+
+#: ../include/admin_template_page.php:272
+msgid "Color"
+msgstr ""
+
+#: ../include/admin_template_page.php:273
+msgid "Red"
+msgstr ""
+
+#: ../include/admin_template_page.php:274
+msgid "Black"
+msgstr ""
+
+#: ../include/admin_template_page.php:279
+msgid "Size"
+msgstr ""
+
+#: ../include/admin_template_page.php:280
+msgid "Large"
+msgstr ""
+
+#: ../include/admin_template_page.php:281
+msgid "Medium"
+msgstr ""
+
+#: ../include/admin_template_page.php:282
+msgid "Small"
+msgstr ""
+
+#: ../include/admin_template_page.php:283
+msgid "Xxl"
+msgstr ""
+
+#: ../include/admin_template_page.php:288 ../include/front-function.php:616
+msgid "Set Variation"
+msgstr ""
+
+#: ../include/admin_template_page.php:308
+msgid "Product 2"
+msgstr ""
+
+#: ../include/admin_template_page.php:360
+msgid "Product 3"
+msgstr ""
+
+#: ../include/admin_template_page.php:384
+msgid "On Backorder"
+msgstr ""
+
+#: ../include/admin_template_page.php:438
+msgid "Older Posts"
+msgstr ""
+
+#: ../include/admin_template_page.php:449
+msgid "Success Message"
+msgstr ""
+
+#: ../include/admin_template_page.php:452
+#: ../include/admin_template_page.php:464
+msgid "Ok"
+msgstr ""
+
+#: ../include/admin_template_page.php:461
+msgid "Error Message"
+msgstr ""
+
+#: ../include/admin_template_page.php:475
+msgid "open cart"
+msgstr ""
+
+#: ../include/admin_template_page.php:496
+msgid "I have a chair I really like"
+msgstr ""
+
+#: ../include/admin_template_page.php:511
+msgid "Product Null Price"
+msgstr ""
+
+#: ../include/front-function.php:608
+msgid "Price:"
+msgstr ""
+
+#: ../include/front_shortcode.php:26
+msgid "iThemelandCo Woo Product Table Message: Can not found shortcode"
+msgstr ""
+
+#: ../include/front_shortcode.php:76
+msgid "Quote List"
+msgstr ""
+
+#: ../include/front_shortcode.php:77
+msgid "Quote Button"
+msgstr ""
+
+#: ../include/front_shortcode.php:78
+msgid "Adding"
+msgstr ""
+
+#: ../include/front_shortcode.php:711
+msgid "feature"
+msgstr ""
+
+#: ../include/front_shortcode.php:722
+msgid "Please Enter SKU"
+msgstr ""
+
+#: ../include/wpbakery_shortcode.php:67
+msgid "iThemelandCo Woo Product Table"
+msgstr ""
+
+#: ../include/wpbakery_shortcode.php:68
+msgid "Set shortcode"
+msgstr ""
+
+#: ../include/wpbakery_shortcode.php:73
+msgid "Tables"
+msgstr ""
+
+#: ../include/wpbakery_shortcode.php:76
+msgid "Select Table..."
+msgstr ""
+
+#: ../include/wpbakery_shortcode.php:91
+msgid "Can Not Found ShortCode"
+msgstr ""

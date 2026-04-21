@@ -1,0 +1,211 @@
+# Translation of Plugins - RaCar Clear Cart for WooCommerce - Development (trunk) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - RaCar Clear Cart for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-07-09 19:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - RaCar Clear Cart for WooCommerce - Development "
+"(trunk)\n"
+"Language-Team: Português do Brasil"
+
+#: includes/admin/views/html-notice-missing-woocommerce.php:25
+msgid "Activate WooCommerce"
+msgstr "Ativar WooCommerce"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:381
+#: includes/views/class-racar-clear-cart-button.php:13
+msgid "Are you sure you wish to clear your shopping cart?"
+msgstr ""
+"Você tem certeza que deseja remover todos os itens do seu carrinho de "
+"compras?"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:180
+msgid "Background Color"
+msgstr "Cor do botão"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:196
+msgid "Background Hover Color"
+msgstr "Cor do Fundo ao Passar o Mouse"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:135
+msgid "Button Text"
+msgstr "Texto do Botão"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:188
+msgid "Button Text Color"
+msgstr "Cor do Texto do Botão"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:204
+msgid "Button Text Color on Hover"
+msgstr "Cor do Texto ao Passar o Mouse"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:487
+msgid "by clicking here"
+msgstr "clicando aqui"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:170
+msgid "Choose at what side from the update cart button"
+msgstr "Escolha em que lado do botão \"Atualizar Carrinho\""
+
+#: includes/admin/class-rccwoo_Admin_Options.php:373
+#: includes/views/class-racar-clear-cart-button.php:12
+msgid "Clear Cart"
+msgstr "Esvaziar Carrinho"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:143
+msgid "Confirmation Text"
+msgstr "Texto de Confirmação"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:159
+msgid "CSS Classes"
+msgstr "Classes CSS"
+
+#: includes/admin/views/html-notice-missing-woocommerce.php:22
+msgid "depends on WooCommerce to be active in order to work!"
+msgstr "depende do WooCommerce estar ativado para funcionar!"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:151
+msgid "Do NOT use default CSS Class \"button\""
+msgstr "NÃO use a classe de CSS padrão \"button\""
+
+#: includes/admin/class-rccwoo_Admin_Options.php:475
+msgid "Do you like this plugin? Please show your love"
+msgstr "Você gosta desse plugin? Por favor, demonstre seu carinho"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:481
+msgid "Do you need help with this plugin? Please open a ticket"
+msgstr "Você precisa de ajuda com este plugin? Abra um ticket"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:487
+msgid "Do you want to show your love? Please buy me some coffee"
+msgstr "Quer demonstrar seu carinho? Me compra um café"
+
+#: includes/admin/class-rccwoo_Action_List.php:47
+msgid "Donate"
+msgstr "Doar"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:360
+msgid "Enter your preferences below:"
+msgstr "Escolha suas preferências abaixo:"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:475
+#: includes/admin/class-rccwoo_Admin_Options.php:481
+msgid "here"
+msgstr "aqui"
+
+#. URI of the plugin
+msgid "https://github.com/rafacarvalhido/racar-clear-cart-woo"
+msgstr "https://github.com/rafacarvalhido/racar-clear-cart-woo"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:468
+msgid "https://mysite.com/shop"
+msgstr "https://meusite.com.br/loja"
+
+#. Author URI of the plugin
+msgid "https://programawordpress.pro.br/blog/contato/rafa-carvalhido/"
+msgstr "https://programawordpress.pro.br/blog/contato/rafa-carvalhido/"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:406
+#: includes/admin/class-rccwoo_Admin_Options.php:417
+msgid "Inherit"
+msgstr "Herdar"
+
+#: includes/admin/views/html-notice-missing-woocommerce.php:33
+msgid "Install WooCommerce"
+msgstr "Instalar WooCommerce"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:151
+msgid ""
+"is the default CSS class for many themes. Should you not want to use this "
+"class in your button, check the box, please."
+msgstr ""
+"é a classe CSS padrão para muitos temas. Caso não queira usar esta classe no "
+"seu botão, marque a caixa, por favor."
+
+#: includes/admin/class-rccwoo_Admin_Options.php:470
+msgid "Leave blank to keep customer in cart page after cart deletion"
+msgstr ""
+"Deixe em branco para manter o cliente na página do carrinho após a exclusão "
+"do carrinho"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:409
+#: includes/admin/class-rccwoo_Admin_Options.php:418
+msgid "Left"
+msgstr "Esquerda"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:220
+msgid "Plugin Rating"
+msgstr "Classificação do plugin"
+
+#. ID
+#: includes/admin/class-rccwoo_Admin_Options.php:120
+msgid "Preferences"
+msgstr "Preferências"
+
+#. Name of the plugin
+#: includes/admin/views/html-notice-missing-woocommerce.php:22
+msgid "RaCar Clear Cart for WooCommerce"
+msgstr "RaCar Esvaziar Carrinho do WooCommerce"
+
+#. Author of the plugin
+msgid "Rafa Carvalhido"
+msgstr "Rafa Carvalhido"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:212
+msgid "Redirection after clearing cart"
+msgstr "Redirecionamento após limpar o carrinho"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:412
+#: includes/admin/class-rccwoo_Admin_Options.php:419
+msgid "Right"
+msgstr "Direita"
+
+#: includes/admin/class-rccwoo_Action_List.php:39
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:171
+msgid "should the clear cart button be"
+msgstr "o botão de Esvaziar Carrinho deveria estar"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:236
+msgid "Show your Appreciation"
+msgstr "Mostre sua apreciação"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:169
+msgid "Side (float)"
+msgstr "Lado (float)"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:228
+msgid "Support"
+msgstr "Suporte"
+
+#. Description of the plugin
+msgid ""
+"This plugin adds a convenient button to empty the shopping cart. Clear the "
+"entire cart with one click."
+msgstr ""
+"Este plugin adiciona um conveniente botão para remover todos os itens do "
+"carrinho de compras. Esvazie todo o carrinho de uma só vez."
+
+#: includes/admin/class-rccwoo_Admin_Options.php:159
+msgid "Type in (or delete) the CSS classes you wish your button to have"
+msgstr "Digite (ou exclua) as classes CSS que você deseja que seu botão tenha"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:212
+msgid ""
+"Type in the whole URL address you'd like<br>to send customers if not to the "
+"cart itself"
+msgstr ""
+"Digite o endereço URL completo que você gostaria<br>de enviar aos clientes, "
+"se não para o próprio carrinho"
+
+#: includes/admin/class-rccwoo_Admin_Options.php:403
+#: includes/admin/class-rccwoo_Admin_Options.php:416
+msgid "Unset"
+msgstr "Unset"

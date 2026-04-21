@@ -1,0 +1,2841 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Post Show 3.0.2\n"
+"POT-Creation-Date: 2024-11-07 17:55+0600\n"
+"PO-Revision-Date: 2024-07-08 16:27+0600\n"
+"Last-Translator: \n"
+"Language-Team: ShapedPlugin <support@shapedplugin.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;esc_html__;esc_html_e;"
+"esc_html_x;esc_attr__;esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/ElementAddons/Shortcode_Widget.php:40
+#: admin/GutenbergBlock/src/index.js:16 admin/GutenbergBlock/src/index.js:81
+#: admin/GutenbergBlock/src/index.js:113 admin/views/class-sps-metaboxes.php:27
+#: admin/views/class-sps-settings.php:39
+#: includes/class-smart-post-show-post-types.php:76
+msgid "Smart Post Show"
+msgstr ""
+
+#: admin/ElementAddons/Shortcode_Widget.php:99
+#: admin/ElementAddons_Deprecated/Shortcode_Widget_Deprecated.php:99
+#: admin/views/configs/generator/class-sps-detailsettings.php:144
+#: admin/views/configs/generator/class-sps-display.php:858
+#: admin/views/configs/generator/class-sps-typography.php:137
+msgid "Content"
+msgstr ""
+
+#: admin/ElementAddons/Shortcode_Widget.php:107
+#: admin/ElementAddons_Deprecated/Shortcode_Widget_Deprecated.php:107
+msgid "Smart Post Show Shortcode(s)"
+msgstr ""
+
+#: admin/ElementAddons_Deprecated/Shortcode_Widget_Deprecated.php:40
+msgid "Smart Post Show Deprecated"
+msgstr ""
+
+#: admin/GutenbergBlock/src/index.js:18
+msgid "Use Smart Post Show to insert a show in your page"
+msgstr ""
+
+#: admin/GutenbergBlock/src/index.js:84
+msgid "No shortcode found. "
+msgstr ""
+
+#: admin/GutenbergBlock/src/index.js:86
+msgid "Create a shortcode now!"
+msgstr ""
+
+#: admin/GutenbergBlock/src/index.js:115
+msgid "Select a Show"
+msgstr ""
+
+#: admin/GutenbergBlock/src/shortcode/dynamicShortcode.js:13
+msgid "-- Select a Show --"
+msgstr ""
+
+#: admin/class-smart-post-show-admin.php:83
+#: includes/class-smart-post-show-post-types.php:74
+#: includes/class-smart-post-show-post-types.php:77
+#: includes/class-smart-post-show-post-types.php:96
+#: includes/class-smart-post-show-post-types.php:97
+msgid "Manage Shows"
+msgstr ""
+
+#: admin/class-smart-post-show-admin.php:85
+msgid "Go Pro!"
+msgstr ""
+
+#: admin/class-smart-post-show-admin.php:100
+msgid "Live Demo"
+msgstr ""
+
+#: admin/class-smart-post-show-admin.php:101
+msgid "Documentation"
+msgstr ""
+
+#: admin/class-smart-post-show-admin.php:102
+msgid "Support"
+msgstr ""
+
+#: admin/class-smart-post-show-admin.php:182
+#: admin/views/configs/generator/class-sps-detailsettings.php:126
+#: admin/views/configs/generator/class-sps-display.php:570
+#: admin/views/configs/generator/class-sps-filterpost.php:409
+#: admin/views/configs/generator/class-sps-typography.php:86
+msgid "Title"
+msgstr ""
+
+#: admin/class-smart-post-show-admin.php:183
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-smart-post-show-admin.php:184
+msgid "Layout"
+msgstr ""
+
+#: admin/class-smart-post-show-admin.php:185
+#: admin/views/configs/generator/class-sps-display.php:662
+#: admin/views/configs/generator/class-sps-filterpost.php:410
+msgid "Date"
+msgstr ""
+
+#: admin/class-smart-post-show-admin.php:203
+msgid "Shortcode Copied to Clipboard!"
+msgstr ""
+
+#: admin/class-smart-post-show-admin.php:219
+msgid "Shortcode Updated"
+msgstr ""
+
+#: admin/class-smart-post-show-admin.php:220
+msgid "Shortcode Published"
+msgstr ""
+
+#: admin/help-page/class-sps-recommended.php:107
+#: admin/help-page/class-sps-recommended.php:114
+msgid "Post Carousel"
+msgstr ""
+
+#: admin/help-page/class-sps-recommended.php:108
+msgid "Recommended"
+msgstr ""
+
+#: admin/help-page/class-sps-recommended.php:115
+msgid "Lite vs Pro"
+msgstr ""
+
+#: admin/help-page/class-sps-recommended.php:121
+msgid "Smart Post Show Help"
+msgstr ""
+
+#: admin/help-page/class-sps-recommended.php:122
+msgid "Get Help"
+msgstr ""
+
+#: admin/help-page/class-sps-recommended.php:241
+msgid "Activate"
+msgstr ""
+
+#: admin/help-page/class-sps-recommended.php:248
+msgid "Install Now"
+msgstr ""
+
+#: admin/help-page/class-sps-recommended.php:254
+msgid "More Details"
+msgstr ""
+
+#: admin/help-page/class-sps-recommended.php:286
+msgid "Version:"
+msgstr ""
+
+#: admin/help-page/class-sps-recommended.php:295
+msgid "+ Active Installations"
+msgstr ""
+
+#: admin/help-page/class-sps-recommended.php:303
+msgid "Last Updated:"
+msgstr ""
+
+#: admin/help-page/class-sps-recommended.php:304
+msgid "ago"
+msgstr ""
+
+#: admin/preview/class-spsp-preview.php:61
+#: admin/views/sp-framework/functions/actions.php:49
+#: admin/views/sp-framework/functions/actions.php:81
+#: admin/views/sp-framework/functions/actions.php:110
+msgid "You do not have required permissions to access."
+msgstr ""
+
+#: admin/views/class-sps-metaboxes.php:47
+msgid "Live Preview"
+msgstr ""
+
+#: admin/views/class-sps-metaboxes.php:74
+msgid "View Options"
+msgstr ""
+
+#: admin/views/class-sps-metaboxes.php:97
+msgid "How To Use"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:26
+#: admin/views/class-sps-replacelayout.php:37
+#: admin/views/sp-framework/classes/options.class.php:726
+msgid "Replace Layout"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:44
+msgid "Standard Archives"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:49
+msgid "Posts Page (Default Blog)"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:50
+#: admin/views/class-sps-replacelayout.php:91
+#: admin/views/class-sps-replacelayout.php:134
+#: admin/views/class-sps-replacelayout.php:176
+#: admin/views/configs/generator/class-sps-carousel.php:56
+#: admin/views/configs/generator/class-sps-carousel.php:93
+#: admin/views/configs/generator/class-sps-carousel.php:104
+#: admin/views/configs/generator/class-sps-carousel.php:114
+#: admin/views/configs/generator/class-sps-carousel.php:353
+#: admin/views/configs/generator/class-sps-carousel.php:363
+#: admin/views/configs/generator/class-sps-carousel.php:372
+#: admin/views/configs/generator/class-sps-carousel.php:382
+#: admin/views/configs/generator/class-sps-carousel.php:392
+#: admin/views/configs/generator/class-sps-carousel.php:402
+#: admin/views/configs/generator/class-sps-detailsettings.php:212
+#: admin/views/configs/generator/class-sps-display.php:388
+#: admin/views/configs/generator/class-sps-display.php:399
+#: admin/views/configs/generator/class-sps-display.php:473
+#: admin/views/configs/generator/class-sps-display.php:547
+#: admin/views/configs/generator/class-sps-display.php:1061
+#: admin/views/configs/settings/class-sps-accessibility.php:34
+msgid "Enabled"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:51
+#: admin/views/class-sps-replacelayout.php:92
+#: admin/views/class-sps-replacelayout.php:135
+#: admin/views/class-sps-replacelayout.php:177
+#: admin/views/configs/generator/class-sps-carousel.php:57
+#: admin/views/configs/generator/class-sps-carousel.php:94
+#: admin/views/configs/generator/class-sps-carousel.php:105
+#: admin/views/configs/generator/class-sps-carousel.php:115
+#: admin/views/configs/generator/class-sps-carousel.php:354
+#: admin/views/configs/generator/class-sps-carousel.php:364
+#: admin/views/configs/generator/class-sps-carousel.php:373
+#: admin/views/configs/generator/class-sps-carousel.php:383
+#: admin/views/configs/generator/class-sps-carousel.php:393
+#: admin/views/configs/generator/class-sps-carousel.php:403
+#: admin/views/configs/generator/class-sps-detailsettings.php:213
+#: admin/views/configs/generator/class-sps-display.php:389
+#: admin/views/configs/generator/class-sps-display.php:400
+#: admin/views/configs/generator/class-sps-display.php:474
+#: admin/views/configs/generator/class-sps-display.php:548
+#: admin/views/configs/generator/class-sps-display.php:1062
+#: admin/views/configs/settings/class-sps-accessibility.php:35
+msgid "Disabled"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:65
+#: admin/views/class-sps-replacelayout.php:107
+#: admin/views/class-sps-replacelayout.php:150
+#: admin/views/class-sps-replacelayout.php:193
+msgid "The Layout To Show Posts"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:67
+#: admin/views/class-sps-replacelayout.php:72
+#: admin/views/class-sps-replacelayout.php:112
+#: admin/views/class-sps-replacelayout.php:155
+#: admin/views/class-sps-replacelayout.php:198
+#: admin/views/class-sps-tools.php:69
+msgid "Choose show(s)"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:78
+#: admin/views/class-sps-replacelayout.php:121
+#: admin/views/class-sps-replacelayout.php:164
+#: admin/views/class-sps-replacelayout.php:207
+msgid "The Way To Retrieve Posts"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:90
+msgid "Search"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:133
+msgid "Author Page"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:181
+msgid "Date, Month, Year"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:224
+msgid "Taxonomy Archives"
+msgstr ""
+
+#: admin/views/class-sps-replacelayout.php:231
+msgid "Post Type Archives"
+msgstr ""
+
+#: admin/views/class-sps-settings.php:28
+#: admin/views/sp-framework/classes/options.class.php:728
+msgid "Settings"
+msgstr ""
+
+#: admin/views/class-sps-tools.php:28 admin/views/class-sps-tools.php:38
+msgid "Tools"
+msgstr ""
+
+#: admin/views/class-sps-tools.php:46 admin/views/class-sps-tools.php:82
+msgid "Export"
+msgstr ""
+
+#: admin/views/class-sps-tools.php:52
+msgid "Choose What To Export"
+msgstr ""
+
+#: admin/views/class-sps-tools.php:55
+msgid "All Shows (Shortcodes)"
+msgstr ""
+
+#: admin/views/class-sps-tools.php:56
+msgid "Selected Show(s)"
+msgstr ""
+
+#: admin/views/class-sps-tools.php:91
+msgid "Import"
+msgstr ""
+
+#: admin/views/class-sps-tools.php:96
+msgid "Import JSON File To Upload"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:28
+msgid "Carousel Settings"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:36
+msgid "Carousel Controls"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:42
+msgid "Carousel Direction"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:43
+msgid "Choose a carousel direction."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:45
+msgid "Right to Left"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:46
+msgid "Left to Right"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:53
+msgid "AutoPlay"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:54
+msgid "Enable/Disable carousel autoplay."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:63
+msgid "AutoPlay Delay"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:64
+msgid "Set autoplay delay time in millisecond."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:71
+msgid "AutoPlay Delay Time"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:71
+msgid ""
+"Set autoplay delay or interval time. The amount of time to delay between "
+"automatically cycling a member. e.g. 1000 milliseconds(ms) = 1 second."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:77
+msgid "Carousel Speed"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:78
+msgid "Set carousel speed in millisecond."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:90
+msgid "Pause on Hover"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:91
+msgid "Enable/Disable carousel stop on hover."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:102
+msgid "Infinite Loop"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:103
+msgid "Enable/Disable carousel infinite loop."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:112
+#: admin/views/configs/generator/class-sps-display.php:544
+msgid "Lazy Load"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:113
+msgid "Enable/Disable lazy load."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:122
+msgid "Transition Effect"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:123
+msgid "Select a slide transition effect."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:124
+msgid ""
+"Fade, cube, and flip transition effects work only for the single column view."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:126
+msgid "Slide"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:127
+msgid "Fade (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:128
+msgid "Coverflow (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:129
+msgid "Cube (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:130
+msgid "Flip (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:137
+#: admin/views/configs/generator/class-sps-carousel.php:149
+msgid "Navigation"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:151
+#: admin/views/configs/generator/class-sps-carousel.php:257
+msgid "Show/hide navigation."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:152
+#: admin/views/configs/generator/class-sps-carousel.php:258
+#: admin/views/configs/generator/class-sps-detailsettings.php:118
+#: admin/views/configs/generator/class-sps-detailsettings.php:127
+#: admin/views/configs/generator/class-sps-detailsettings.php:136
+#: admin/views/configs/generator/class-sps-detailsettings.php:145
+#: admin/views/configs/generator/class-sps-detailsettings.php:154
+#: admin/views/configs/generator/class-sps-detailsettings.php:163
+#: admin/views/configs/generator/class-sps-display.php:45
+#: admin/views/configs/generator/class-sps-display.php:429
+#: admin/views/configs/generator/class-sps-display.php:571
+#: admin/views/configs/generator/class-sps-display.php:642
+#: admin/views/configs/generator/class-sps-display.php:859
+#: admin/views/configs/generator/class-sps-display.php:916
+#: admin/views/configs/generator/class-sps-filterpost.php:289
+#: includes/class-smart-post-show-post-types.php:75
+msgid "Show"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:153
+#: admin/views/configs/generator/class-sps-carousel.php:259
+#: admin/views/configs/generator/class-sps-detailsettings.php:119
+#: admin/views/configs/generator/class-sps-detailsettings.php:128
+#: admin/views/configs/generator/class-sps-detailsettings.php:137
+#: admin/views/configs/generator/class-sps-detailsettings.php:146
+#: admin/views/configs/generator/class-sps-detailsettings.php:155
+#: admin/views/configs/generator/class-sps-detailsettings.php:164
+#: admin/views/configs/generator/class-sps-display.php:46
+#: admin/views/configs/generator/class-sps-display.php:430
+#: admin/views/configs/generator/class-sps-display.php:572
+#: admin/views/configs/generator/class-sps-display.php:643
+#: admin/views/configs/generator/class-sps-display.php:860
+#: admin/views/configs/generator/class-sps-display.php:917
+#: admin/views/configs/generator/class-sps-filterpost.php:290
+msgid "Hide"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:161
+#: admin/views/configs/generator/class-sps-carousel.php:268
+msgid "Hide on Mobile"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:172
+msgid "Navigation Position"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:173
+msgid "Select a position for the navigation arrows."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:175
+#: admin/views/configs/generator/class-sps-display.php:754
+msgid "Top Right"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:176
+msgid "Top Center"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:177
+#: admin/views/configs/generator/class-sps-display.php:753
+msgid "Top Left"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:178
+#: admin/views/configs/generator/class-sps-display.php:755
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:179
+msgid "Bottom Center"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:180
+#: admin/views/configs/generator/class-sps-display.php:756
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:181
+msgid "Vertical Center Outer"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:182
+msgid "Vertical Center"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:183
+msgid "Vertical Center Inner"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:191
+msgid "Visible On Hover"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:192
+msgid "Check to show navigation on hover in the carousel or slider area."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:199
+#: admin/views/configs/generator/class-sps-carousel.php:203
+#: admin/views/configs/generator/class-sps-carousel.php:325
+#: admin/views/configs/generator/class-sps-detailsettings.php:226
+#: admin/views/configs/generator/class-sps-detailsettings.php:242
+#: admin/views/configs/generator/class-sps-display.php:1118
+#: admin/views/sp-framework/fields/border/border.php:156
+msgid "Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:200
+msgid "Set color for the carousel navigation."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:204
+#: admin/views/configs/generator/class-sps-detailsettings.php:227
+#: admin/views/configs/generator/class-sps-detailsettings.php:243
+#: admin/views/sp-framework/fields/border/border.php:165
+#: admin/views/sp-framework/fields/typography/typography.php:383
+msgid "Hover Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:205
+#: admin/views/configs/generator/class-sps-detailsettings.php:244
+#: admin/views/configs/generator/class-sps-display.php:362
+#: admin/views/configs/generator/class-sps-display.php:767
+#: admin/views/configs/generator/class-sps-display.php:936
+#: admin/views/configs/generator/class-sps-display.php:1125
+#: admin/views/configs/generator/class-sps-filterpost.php:303
+msgid "Background"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:206
+#: admin/views/configs/generator/class-sps-detailsettings.php:245
+#: admin/views/configs/generator/class-sps-display.php:937
+msgid "Hover Background"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:219
+#: admin/views/configs/generator/class-sps-display.php:320
+#: admin/views/configs/generator/class-sps-display.php:496
+#: admin/views/configs/generator/class-sps-display.php:955
+#: admin/views/configs/generator/class-sps-display.php:1141
+#: admin/views/configs/generator/class-sps-filterpost.php:319
+msgid "Border"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:220
+msgid "Set border for the navigation."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:239
+msgid ""
+"Want even more fine-tuned control over your Carousel Navigation display?"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:239
+#: admin/views/configs/generator/class-sps-carousel.php:339
+#: admin/views/configs/generator/class-sps-display.php:554
+#: admin/views/configs/generator/class-sps-display.php:612
+#: admin/views/configs/generator/class-sps-display.php:842
+#: admin/views/configs/generator/class-sps-display.php:975
+#: admin/views/configs/generator/class-sps-display.php:992
+#: admin/views/configs/generator/class-sps-display.php:1028
+#: admin/views/configs/generator/class-sps-typography.php:34
+msgid "Upgrade To Pro!"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:244
+#: admin/views/configs/generator/class-sps-carousel.php:255
+#: admin/views/configs/generator/class-sps-display.php:1064
+msgid "Pagination"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:278
+#: admin/views/configs/generator/class-sps-display.php:1072
+msgid "Pagination Type"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:279
+msgid "Select a style for pagination."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:283
+msgid "Dots"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:287
+msgid "Dynamic"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:292
+msgid "Strokes"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:297
+msgid "Scrollbar"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:302
+msgid "Fraction"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:307
+msgid "Number"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:318
+msgid "Pagination Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:319
+msgid "Set color for the carousel pagination."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:326
+msgid "Active Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:339
+msgid ""
+"Want even more fine-tuned control over your Carousel Pagination display?"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:344
+msgid "Miscellaneous"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:350
+msgid "Adaptive Carousel Height"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:351
+msgid "Dynamically adjust post carousel height based on each slide's height."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:360
+msgid "Tab and Key Navigation"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:361
+msgid "Enable/Disable carousel scroll with tab and keyboard."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:370
+msgid "Touch Swipe"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:371
+msgid "Enable/Disable touch swipe mode."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:380
+msgid "Mouse Draggable"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:381
+msgid "Enable/Disable mouse draggable mode."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:390
+msgid "Free Mode"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:391
+msgid "Enable/Disable free mode."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:400
+msgid "Mouse Wheel"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-carousel.php:401
+msgid "Enable/Disable mouse wheel mode."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:28
+msgid "Detail page Settings"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:35
+msgid "Detail Page Link Type"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:36
+msgid "Choose a link type for the (item) detail page."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:38
+msgid "Popup (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:39
+msgid "Single Page"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:40
+msgid "None (no link action)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:47
+msgid "Target"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:48
+msgid "Set a target for the item link."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:50
+msgid "Current Tab"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:51
+msgid "New Tab"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:52
+msgid "Parent"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:53
+#: admin/views/configs/generator/class-sps-display.php:165
+#: admin/views/configs/generator/class-sps-display.php:190
+#: admin/views/configs/generator/class-sps-layout.php:160
+msgid "Top"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:61
+msgid "Add rel=\"nofollow\" to item links"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:68
+#, php-format
+msgid "To unlock the following amazing Popup Settings, %1$sUpgrade To Pro!%2$s"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:83
+msgid "Popup Type"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:84
+msgid "Choose a popup type."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:88
+msgid "Single Popup"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:93
+msgid "Multi Popup"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:102
+msgid "Popup Fields"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:103
+msgid "Show/Hide content fields in the popup. These fields are also sortable."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:117
+#: admin/views/configs/generator/class-sps-display.php:423
+#: admin/views/configs/generator/class-sps-display.php:487
+msgid "Image"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:135
+#: admin/views/configs/generator/class-sps-display.php:636
+msgid "Meta Data"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:153
+#: admin/views/configs/generator/class-sps-display.php:987
+msgid "Social Share"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:162
+#: admin/views/configs/generator/class-sps-detailsettings.php:182
+#: admin/views/configs/generator/class-sps-display.php:1023
+#: admin/views/configs/generator/class-sps-typography.php:186
+msgid "Custom Fields"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:175
+msgid "Content Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:176
+msgid "Set the popup content color."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:179
+msgid "Post Title"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:180
+msgid "Post Meta"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:181
+msgid "Post Content"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:195
+msgid "Background Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:196
+msgid "Change the popup background color."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:202
+msgid "Overlay Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:204
+msgid "Change the popup overlay color."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:210
+msgid "Close Button"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:211
+msgid "Enable/Disable popup close button."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:221
+msgid "Close Button Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:222
+msgid "Change the popup close button color."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:237
+msgid "Navigation Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:238
+msgid "Change the popup navigation color."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:259
+msgid "Popup Max Size"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:260
+msgid "Set a maximum popup width and height."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:262
+msgid "Height"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-detailsettings.php:263
+#: admin/views/sp-framework/fields/border/border.php:105
+msgid "Width"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:28
+msgid "DISPLAY Settings"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:36
+msgid "Basic Styles"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:42
+msgid "Section Title "
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:43
+msgid "Show/Hide item showcase section title."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:52
+msgid "Column(s)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:54
+msgid "Set number of column(s) in different responsive devices."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:67
+msgid "Large Desktop - is larger than 1200px"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:67
+msgid "Desktop - size is larger than 992px"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:67
+msgid "Tablet - Size is larger than 768"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:67
+msgid "Mobile Landscape- size is larger than 576px."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:67
+msgid "Mobile - size is smaller than 576px."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:89
+#: admin/views/configs/generator/class-sps-display.php:101
+msgid "Space"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:90
+msgid "Set space or gap between items."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:107
+msgid "Content Orientation "
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:108
+msgid "Set a position for the item content."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:111
+#, php-format
+msgid ""
+"To unlock more amazing Content Orientation and Layout based Settings, "
+"%1$sUpgrade To Pro!%2$s"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:119
+#: admin/views/configs/generator/class-sps-display.php:697
+#: admin/views/sp-framework/fields/typography/typography.php:152
+#: admin/views/sp-framework/fields/typography/typography.php:166
+#: admin/views/sp-framework/fields/typography/typography.php:179
+#: admin/views/sp-framework/fields/typography/typography.php:194
+#: admin/views/sp-framework/fields/typography/typography.php:213
+#: admin/views/sp-framework/fields/typography/typography.php:231
+#: admin/views/sp-framework/fields/typography/typography.php:250
+#: admin/views/sp-framework/fields/typography/typography.php:273
+msgid "Default"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:123
+#: admin/views/configs/generator/class-sps-layout.php:165
+#: admin/views/configs/generator/class-sps-layout.php:185
+#: admin/views/sp-framework/fields/typography/typography.php:206
+msgid "Left"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:128
+#: admin/views/configs/generator/class-sps-layout.php:170
+#: admin/views/configs/generator/class-sps-layout.php:189
+#: admin/views/sp-framework/fields/typography/typography.php:208
+msgid "Right"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:133
+msgid "Card"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:138
+msgid "Overlay"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:143
+msgid "Overlay Box"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:155
+#: admin/views/configs/generator/class-sps-display.php:181
+msgid "Content Position"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:156
+#: admin/views/configs/generator/class-sps-display.php:182
+msgid "Select a position for the overlay content."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:160
+#: admin/views/configs/generator/class-sps-display.php:186
+msgid "Middle"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:170
+#: admin/views/configs/generator/class-sps-display.php:195
+#: admin/views/configs/generator/class-sps-layout.php:155
+msgid "Bottom"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:200
+msgid "Middle Box"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:212
+msgid "Content Box Position"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:213
+msgid "Select a position for the overlay content box."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:224
+msgid "Inner Middle"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:229
+msgid "Inner Top"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:234
+msgid "Inner Bottom"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:239
+msgid "Outer Top"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:244
+msgid "Outer Bottom"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:249
+msgid "Outer Left"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:254
+msgid "Outer Right"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:267
+msgid "Content Visibility"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:268
+msgid "Choose a visibility type for overlay content."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:270
+msgid "Always"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:271
+msgid "On Hover"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:274
+msgid "Overlay Content Visibility"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:282
+msgid "Hover Animation"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:283
+msgid "Select an animation type for the overlay content on hover."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:285
+#: admin/views/sp-framework/fields/border/border.php:88
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:90
+#: admin/views/sp-framework/fields/typography/typography.php:244
+#: admin/views/sp-framework/fields/typography/typography.php:263
+msgid "None"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:286
+msgid "fadeIn"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:287
+msgid "fadeInDown"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:288
+msgid "fadeInRight"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:289
+msgid "fadeInLeft"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:290
+msgid "fadeInUp"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:291
+msgid "flipInX"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:292
+msgid "flipInY"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:293
+msgid "slideInUp"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:294
+msgid "slideInDown"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:295
+msgid "zoomIn"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:296
+msgid "zoomInDown"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:297
+msgid "jackInTheBox"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:298
+msgid "rollIn"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:308
+msgid "Overlay Color Type"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:309
+msgid "Choose an overlay color type."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:311
+#: admin/views/configs/generator/class-sps-display.php:353
+#: admin/views/sp-framework/fields/border/border.php:80
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:82
+#: admin/views/sp-framework/fields/typography/typography.php:264
+msgid "Solid"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:312
+#: admin/views/configs/generator/class-sps-display.php:354
+msgid "Gradient"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:321
+msgid "Set border for the item."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:350
+msgid "Background Color Type"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:351
+msgid "Choose an background color type."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:363
+msgid "Set background color for the item."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:370
+msgid "Inner Padding"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:371
+msgid "Set inner padding for  item."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:386
+#: admin/views/configs/generator/class-sps-display.php:392
+msgid "Enable Equal Height"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:387
+msgid "Enable to equalize all items height as the tallest one."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:397
+msgid "Preloader"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:398
+msgid "Items will be hidden until page load completed."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:407
+#: admin/views/configs/generator/class-sps-display.php:413
+msgid "Content Fields"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:414
+msgid ""
+"Item content fields which are draggable to change display order and it's "
+"settings."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:428
+msgid "Featured Image"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:437
+msgid "Size"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:444
+msgid "Custom Size (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:471
+msgid "Load 2x Resolution Image in Retina Display"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:484
+msgid "Replace With"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:485
+msgid ""
+"This option will replace your default/featured post image with first "
+"resource ( image/video/audio ) from the content."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:488
+msgid "Video"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:489
+msgid "Audio"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:515
+msgid "Zoom Effect"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:517
+#: admin/views/sp-framework/fields/typography/typography.php:226
+msgid "Normal"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:518
+msgid "Zoom In (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:519
+msgid "Zoom Out (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:528
+msgid "Image Mode"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:531
+msgid "Original"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:532
+msgid "Grayscale and normal on hover (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:533
+msgid "Grayscale on hover (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:534
+msgid "Always grayscale (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:545
+msgid ""
+"Deferring the loading of images until they are needed significantly improves "
+"the page load time."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:554
+msgid "To enhance the Featured Image using advanced customizations?"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:579
+msgid "HTML Tag for Title"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:581
+msgid "h1"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:582
+msgid "h2"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:583
+msgid "h3"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:584
+msgid "h4"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:585
+msgid "h5"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:586
+msgid "h6"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:587
+msgid "p"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:588
+msgid "div"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:597
+msgid "Title Display Type"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:600
+#: admin/views/configs/generator/class-sps-display.php:872
+msgid "Full"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:601
+#: admin/views/configs/generator/class-sps-display.php:871
+#: admin/views/configs/generator/class-sps-filterpost.php:129
+msgid "Limit"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:611
+#: admin/views/configs/generator/class-sps-display.php:882
+msgid "Length"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:612
+msgid "To limit the Title,"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:641
+#: admin/views/configs/generator/class-sps-typography.php:112
+msgid "Meta Fields"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:651
+msgid "Add New Meta"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:657
+msgid "Select Meta"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:658
+msgid "Select a meta"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:661
+#: admin/views/configs/generator/class-sps-filterpost.php:148
+msgid "Author"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:663
+msgid "Comment Count"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:664
+msgid "Taxonomy (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:665
+msgid "View Count (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:666
+msgid "Like (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:667
+msgid "Reading Time (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:673
+msgid "Avatar"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:676
+msgid "Show name"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:677
+msgid "Show gravatar"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:678
+msgid "Author name & gravatar"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:679
+msgid "Author name with an icon"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:684
+#, php-format
+msgid "To show gravatar, you must %1$senable it%2$s."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:694
+msgid "Date Format"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:698
+msgid "Time ago(human time)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:699
+msgid "Custom"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:709
+#: admin/views/configs/generator/class-sps-display.php:710
+msgid "F j, Y"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:713
+#, php-format
+msgid "To define format, check %1$sthis doc%2$s."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:722
+#: admin/views/sp-framework/classes/fields.class.php:331
+#: admin/views/sp-framework/functions/actions.php:43
+msgid "Select Taxonomy"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:731
+#: admin/views/configs/generator/class-sps-filterpost.php:184
+msgid "No taxonomies found."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:738
+msgid "Position"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:740
+msgid "Beside Other Meta"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:741
+msgid "Above Title"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:742
+msgid "Over Thumbnail"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:751
+msgid "Over Thumbnail Position"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:764
+msgid "Meta Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:766
+msgid "Text"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:778
+msgid "Per Minute"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:780
+msgid "Default 300 words, the average reading speed for adults."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:782
+msgid "words"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:791
+msgid "Meta Icon"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:798
+msgid "Reading Time Postfix"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:800
+msgid "Text after time. Leave empty for nothing."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:827
+msgid "Meta Separator"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:830
+msgid "Normal Space "
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:831
+msgid "Full Stop ( . ) "
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:832
+msgid "Straight Line ( | )"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:833
+msgid "Slash ( / )"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:834
+msgid "Back Slash( \\ )"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:842
+msgid "To access more Meta Data and options,"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:868
+msgid "Content Display Type"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:870
+msgid "Excerpt"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:899
+msgid "HTML Tags"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:903
+msgid "Allow All"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:904
+msgid "Strip All"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:905
+msgid "Allow Some"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:915
+#: admin/views/configs/generator/class-sps-typography.php:161
+msgid "Read More"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:925
+msgid "Read More Label"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:932
+msgid "Read More Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:934
+#: admin/views/configs/generator/class-sps-display.php:1121
+#: admin/views/configs/generator/class-sps-filterpost.php:299
+msgid "Text Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:935
+msgid "Text Hover Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:956
+msgid "Set border for the read more button."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:975
+msgid "To limit the Content and more options,"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:992
+msgid "To unlock the following social share options,"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1005
+#: admin/views/configs/generator/class-sps-display.php:1162
+#: admin/views/configs/generator/class-sps-filterpost.php:337
+msgid "Alignment"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1028
+msgid "To unlock the following amazing custom field options,"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1041
+msgid "Customize Field Name"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1054
+msgid "Load More Pagination"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1065
+msgid "Enabled/Disabled item pagination."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1073
+msgid "Choose a pagination type."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1076
+#, php-format
+msgid "More amazing Ajax Pagination Settings are available in %1$sPro%2$s"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1082
+msgid "Normal Pagination"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1083
+msgid "Ajax Load More Button (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1084
+msgid "Ajax Number Pagination (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1085
+msgid "Ajax Infinite Scroll (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1093
+msgid "Items Per Page"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1094
+msgid "Set number of items to show per page."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1097
+#, php-format
+msgid ""
+"This value should be lesser than that %1$s Limit %2$s from %1$sFilter "
+"Content  %2$s tab."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1108
+msgid "Items Load Per Click"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1109
+msgid "Set number of items to load per click."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1119
+msgid "Set Pagination color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1122
+msgid "Text Active Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1126
+msgid "Active BG"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1142
+msgid "Set border for the pagination button."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1163
+msgid "Choose pagination alignment."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1175
+msgid "Advertisement"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-display.php:1183
+#, php-format
+msgid ""
+"To earn money from your website by displaying Google AdSense, banners, and "
+"more in your posts, %1$sUpgrade To Pro!%2$s"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:27
+msgid "Filter content"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:33
+msgid "Post Type(s)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:34
+msgid "Select post type(s)."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:37
+#, php-format
+msgid ""
+"To filter custom post type (product, portfolio, event...), %1$sUpgrade To "
+"Pro!%2$s"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:42
+msgid "Posts"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:43
+msgid "Pages"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:44
+msgid "Products"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:45
+#: admin/views/sp-framework/fields/select/select.php:109
+msgid "Multiple Post Types (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:58
+msgid "Filter Products"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:59
+msgid "Select a product type for filtering."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:61
+msgid "Recent"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:62
+msgid "Featured (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:63
+msgid "On Sale (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:64
+msgid "Best Selling (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:65
+msgid "Top Rated (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:66
+msgid "Out of Stock (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:67
+msgid "None of Above (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:74
+msgid "Common Filtering"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:79
+msgid "Include Only"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:80
+#: admin/views/configs/generator/class-sps-filterpost.php:97
+msgid "Enter post IDs, or type to search by title."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:87
+msgid "Choose posts"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:96
+msgid "Exclude"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:108
+msgid "Choose posts to exclude"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:120
+msgid "Current Post"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:121
+msgid "Password Protected Posts"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:122
+msgid "Children Posts"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:131
+msgid ""
+"Number of total items to display. Leave it empty to show all found items."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:138
+msgid "Advanced Filtering"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:144
+msgid "Filter By"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:145
+msgid "Check the option(s) to filter by."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:147
+#: admin/views/configs/generator/class-sps-filterpost.php:162
+msgid "Taxonomy (Categories, Tags...)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:149
+msgid "Sort By"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:150
+msgid "Custom Fields (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:151
+#: admin/views/configs/generator/class-sps-filterpost.php:444
+msgid "Status"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:152
+msgid "Date (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:153
+#: admin/views/configs/generator/class-sps-filterpost.php:466
+msgid "Keyword"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:175
+msgid "Taxonomy Type"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:189
+msgid "Choose Term(s)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:190
+msgid "Choose the taxonomy term(s) to show the posts from."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:196
+msgid "No terms found."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:197
+msgid "Select Term(s)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:204
+msgid "Operator"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:206
+msgid "IN"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:207
+#: admin/views/configs/generator/class-sps-filterpost.php:356
+msgid "AND"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:208
+msgid "NOT IN"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:213
+#, php-format
+msgid ""
+"IN - Show posts which associate with one or more terms%1$sAND - Show posts "
+"which match all terms%1$sNOT IN - Show posts which don't match the terms"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:222
+msgid "Add to Ajax Live Filters (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:227
+#: admin/views/configs/generator/class-sps-filterpost.php:234
+msgid "Ajax Live Filters (Frontend)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:243
+#, php-format
+msgid ""
+"To allow visitors to Filter, Search, and Sort on the front end, %1$sUpgrade "
+"To Pro!%2$s"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:253
+msgid "Filter Type"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:254
+msgid "Select a type for live filter."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:258
+msgid "Dropdown"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:262
+msgid "Radio"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:266
+msgid "Checkbox"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:270
+msgid "Button"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:279
+msgid "Hide Empty Term(s)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:280
+msgid "Check to hide empty terms."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:284
+msgid "Post Counter"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:285
+msgid "Check to show post count."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:296
+msgid "Filter Button Color"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:300
+msgid "Text Hover"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:304
+msgid "Active/Hover BG"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:353
+msgid "Relation"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:357
+msgid "OR"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:360
+msgid "The logical relationship between/among above taxonomies."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:380
+msgid "Post by Author"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:386
+msgid "Post Not by Author "
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:406
+msgid "Order by"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:408
+msgid "ID"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:411
+msgid "Modified date"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:412
+msgid "Post in (Drag & Drop) (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:413
+msgid "Post slug (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:414
+msgid "Post type (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:415
+msgid "Random (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:416
+msgid "Comment count (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:417
+msgid "Menu order (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:418
+msgid "Author (Pro)"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:425
+msgid "Order"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:427
+msgid "Ascending"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:428
+msgid "Descending"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:450
+msgid "Post Status"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:472
+msgid "Type Keyword"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-filterpost.php:473
+msgid "Enter keyword(s) for searching the posts."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:38
+msgid "Layout Preset"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:43
+msgid "Carousel"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:48
+msgid "Slider"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:53
+msgid "Grid"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:58
+msgid "List"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:63
+msgid "Thumbs Slider"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:69
+#: admin/views/configs/generator/class-sps-layout.php:211
+msgid "Masonry"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:75
+msgid "Isotope"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:81
+msgid "Glossary"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:87
+msgid "Hierarchical Grid"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:93
+msgid "Timeline"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:99
+msgid "Zigzag"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:105
+msgid "Table"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:111
+msgid "Accordion"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:122
+msgid "Carousel Style"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:126
+msgid "Standard"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:130
+#: admin/views/sp-framework/fields/typography/typography.php:207
+msgid "Center"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:135
+msgid "Ticker"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:140
+msgid "Multi Rows"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:151
+msgid "Thumbnails Slider Style"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:181
+msgid "List Style"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:200
+msgid "Isotope Style"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:206
+msgid "Even"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:222
+msgid "Hierarchical Style"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:227
+msgid "Hierarchical 1"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:232
+msgid "Hierarchical 2"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:237
+msgid "Hierarchical 3"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:242
+msgid "Hierarchical 4"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:247
+msgid "Hierarchical 5"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:258
+msgid "Timeline Style"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:263
+msgid "Vertical"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:268
+msgid "Horizontal"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:273
+msgid "Right Side"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-layout.php:278
+msgid "Left Side"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-typography.php:27
+msgid "Typography"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-typography.php:34
+msgid "Want to easily customize everything (Typography, Colors, Margin)?"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-typography.php:34
+msgid "P.S. Note: The color fields work in the lite version."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-typography.php:39
+msgid "Section Title"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-typography.php:40
+msgid "Set item showcase section title font properties."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-typography.php:63
+msgid "Section Title Margin"
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-typography.php:64
+msgid "Set margin for the section title."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-typography.php:87
+msgid "Set title font properties."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-typography.php:113
+msgid "Set meta fields font properties."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-typography.php:138
+msgid "Set content font properties."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-typography.php:162
+msgid "Set read more font properties."
+msgstr ""
+
+#: admin/views/configs/generator/class-sps-typography.php:187
+msgid "Set custom fields font properties."
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-accessibility.php:27
+msgid "Accessibility"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-accessibility.php:33
+msgid "Carousel Accessibility"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-accessibility.php:42
+msgid "Previous Slide Message"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-accessibility.php:43
+msgid "Previous slide"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-accessibility.php:49
+msgid "Next Slide Message"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-accessibility.php:50
+msgid "Next slide"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-accessibility.php:56
+msgid "First Slide Message"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-accessibility.php:57
+msgid "This is the first slide"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-accessibility.php:63
+msgid "Last Slide Message"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-accessibility.php:64
+msgid "This is the last slide"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-accessibility.php:70
+msgid "Pagination Bullet Message"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-accessibility.php:71
+msgid "Go to slide {{index}}"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-advanced.php:27
+msgid "Advanced"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-advanced.php:33
+msgid "Clean-up Data on Deletion"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-advanced.php:34
+msgid ""
+"Delete all Smart Post Show data from the database on plugin uninstalling and "
+"deletion."
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-customcss.php:27
+msgid "Additional CSS & JS"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-customcss.php:33
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-customcss.php:43
+msgid "Custom JS"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-scriptsandstyles.php:27
+msgid "Control Assets"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-scriptsandstyles.php:33
+msgid "Swiper JS"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-scriptsandstyles.php:34
+#: admin/views/configs/settings/class-sps-scriptsandstyles.php:43
+#: admin/views/configs/settings/class-sps-scriptsandstyles.php:52
+msgid "Enqueued"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-scriptsandstyles.php:35
+#: admin/views/configs/settings/class-sps-scriptsandstyles.php:44
+#: admin/views/configs/settings/class-sps-scriptsandstyles.php:53
+msgid "Dequeued"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-scriptsandstyles.php:42
+msgid "Swiper CSS"
+msgstr ""
+
+#: admin/views/configs/settings/class-sps-scriptsandstyles.php:51
+msgid "Font Awesome CSS"
+msgstr ""
+
+#: admin/views/sp-framework/classes/metabox.class.php:352
+#: admin/views/sp-framework/classes/options.class.php:834
+msgid "No option provided by developer."
+msgstr ""
+
+#: admin/views/sp-framework/classes/metabox.class.php:370
+msgid "Restore"
+msgstr ""
+
+#: admin/views/sp-framework/classes/metabox.class.php:371
+msgid "update post for restore "
+msgstr ""
+
+#: admin/views/sp-framework/classes/metabox.class.php:371
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:335
+msgid "Error while saving."
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:423
+msgid "Settings successfully imported."
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:435
+msgid "Default options restored."
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:449
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:510
+msgid "Settings saved."
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:736
+msgid "show all options"
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:738
+msgid "Search option(s)"
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:741
+msgid "Save Settings"
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:741
+#: admin/views/sp-framework/classes/options.class.php:858
+msgid "Saving..."
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:742
+msgid "Reset Tab"
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:742
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:743
+#: admin/views/sp-framework/classes/options.class.php:860
+msgid "Reset All"
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:743
+#: admin/views/sp-framework/classes/options.class.php:860
+msgid "Are you sure to reset all options?"
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:858
+msgid "Save"
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:859
+msgid "Reset Section"
+msgstr ""
+
+#: admin/views/sp-framework/classes/options.class.php:859
+msgid "Are you sure to reset this section options?"
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:408
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:409
+msgid "Restoring options."
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:410
+msgid "Importing options."
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:413
+#, php-format
+msgid "Please enter %s or more characters"
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:414
+msgid "Searching..."
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:415
+msgid "No results match"
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:463
+#, php-format
+msgid "Ooops! This field type (%s) can not be used here, yet."
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:533
+msgid "This field class is not available!"
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:536
+msgid "This type is not found!"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:46
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:51
+#: admin/views/sp-framework/fields/spacing/spacing.php:53
+msgid "top"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:47
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:52
+#: admin/views/sp-framework/fields/spacing/spacing.php:54
+msgid "right"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:48
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:53
+#: admin/views/sp-framework/fields/spacing/spacing.php:55
+msgid "bottom"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:49
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:54
+#: admin/views/sp-framework/fields/spacing/spacing.php:56
+msgid "left"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:50
+#: admin/views/sp-framework/fields/column/column.php:59
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:55
+#: admin/views/sp-framework/fields/spacing/spacing.php:57
+#: admin/views/sp-framework/fields/spacing/spacing.php:60
+msgid "all"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:81
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:83
+#: admin/views/sp-framework/fields/typography/typography.php:267
+msgid "Dashed"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:82
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:84
+#: admin/views/sp-framework/fields/typography/typography.php:266
+msgid "Dotted"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:83
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:85
+#: admin/views/sp-framework/fields/typography/typography.php:265
+msgid "Double"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:84
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:86
+msgid "Inset"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:85
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:87
+msgid "Outset"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:86
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:88
+msgid "Groove"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:87
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:89
+msgid "ridge"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:140
+msgid "Style"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:175
+msgid "Radius"
+msgstr ""
+
+#: admin/views/sp-framework/fields/checkbox/checkbox.php:84
+#: admin/views/sp-framework/fields/radio/radio.php:84
+#: admin/views/sp-framework/fields/select/select.php:136
+msgid "No data provided for this option type."
+msgstr ""
+
+#: admin/views/sp-framework/fields/column/column.php:54
+msgid "Large Desktop"
+msgstr ""
+
+#: admin/views/sp-framework/fields/column/column.php:55
+msgid "Desktop"
+msgstr ""
+
+#: admin/views/sp-framework/fields/column/column.php:56
+msgid "Tablet"
+msgstr ""
+
+#: admin/views/sp-framework/fields/column/column.php:57
+msgid "Mobile Landscape"
+msgstr ""
+
+#: admin/views/sp-framework/fields/column/column.php:58
+msgid "Mobile"
+msgstr ""
+
+#: admin/views/sp-framework/fields/group/group.php:45
+#: includes/class-smart-post-show-post-types.php:78
+msgid "Add New"
+msgstr ""
+
+#: admin/views/sp-framework/fields/group/group.php:58
+msgid "Error: Nested field id can not be same with another nested field id."
+msgstr ""
+
+#: admin/views/sp-framework/fields/group/group.php:69
+#: admin/views/sp-framework/fields/group/group.php:110
+msgid "Are you sure to delete this item?"
+msgstr ""
+
+#: admin/views/sp-framework/fields/group/group.php:144
+msgid "You can not add more than"
+msgstr ""
+
+#: admin/views/sp-framework/fields/group/group.php:145
+msgid "You can not remove less than"
+msgstr ""
+
+#: admin/views/sp-framework/fields/icon/icon.php:42
+#: admin/views/sp-framework/functions/actions.php:137
+msgid "Add Icon"
+msgstr ""
+
+#: admin/views/sp-framework/fields/icon/icon.php:43
+msgid "Remove Icon"
+msgstr ""
+
+#: admin/views/sp-framework/fields/image_sizes/image_sizes.php:77
+msgid "Original uploaded image"
+msgstr ""
+
+#: admin/views/sp-framework/fields/image_sizes/image_sizes.php:78
+msgid "Set custom size"
+msgstr ""
+
+#: admin/views/sp-framework/fields/image_sizes/image_sizes.php:125
+msgid "No image sizes found."
+msgstr ""
+
+#: admin/views/sp-framework/fields/spacing/spacing.php:58
+msgid "Vertical Gap"
+msgstr ""
+
+#: admin/views/sp-framework/fields/spacing/spacing.php:59
+msgid "Gap"
+msgstr ""
+
+#: admin/views/sp-framework/fields/switcher/switcher.php:39
+msgid "On"
+msgstr ""
+
+#: admin/views/sp-framework/fields/switcher/switcher.php:40
+msgid "Off"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:123
+msgid "Font Family"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:124
+msgid "Select a font"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:132
+msgid "Backup Font Family"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:164
+msgid "Font Style"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:178
+#: admin/views/sp-framework/fields/typography/typography.php:179
+msgid "Load Extra Styles"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:192
+msgid "Subset"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:202
+msgid "Text Align"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:205
+msgid "Inherit"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:209
+msgid "Justify"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:210
+msgid "Initial"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:222
+msgid "Font Variant"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:227
+msgid "Small Caps"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:228
+msgid "All Small Caps"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:241
+msgid "Text Transform"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:245
+msgid "Capitalize"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:246
+msgid "Uppercase"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:247
+msgid "Lowercase"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:259
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:268
+msgid "Wavy"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:269
+msgid "Overline"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:270
+msgid "Line-through"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:287
+msgid "Font Size"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:296
+msgid "Line Height"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:305
+msgid "Font Size (Tablet)"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:314
+msgid "Line Height (Tablet)"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:323
+msgid "Font Size (Mobile)"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:332
+msgid "Line Height (Mobile)"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:344
+msgid "Letter Spacing"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:356
+msgid "Word Spacing"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:372
+msgid "Font Color"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:396
+msgid "Custom Style"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:477
+msgid "Custom Web Fonts"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:483
+msgid "Safe Web Fonts"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:506
+msgid "Google Web Fonts"
+msgstr ""
+
+#: admin/views/sp-framework/functions/actions.php:52
+#: admin/views/sp-framework/functions/actions.php:84
+#: admin/views/sp-framework/functions/actions.php:113
+#: includes/class-smart-post-show-import-export.php:165
+msgid "Error: Nonce verification has failed. Please try again."
+msgstr ""
+
+#: admin/views/sp-framework/functions/actions.php:141
+msgid "Search a Icon..."
+msgstr ""
+
+#: admin/views/sp-framework/functions/validate.php:23
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: admin/views/sp-framework/functions/validate.php:42
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: admin/views/sp-framework/functions/validate.php:61
+msgid "Error! This field is required!"
+msgstr ""
+
+#: admin/views/sp-framework/functions/validate.php:80
+msgid "Please write a valid url!"
+msgstr ""
+
+#: includes/class-smart-post-show-import-export.php:174
+msgid "Nothing to import."
+msgstr ""
+
+#: includes/class-smart-post-show-post-types.php:79
+msgid "Add New Show"
+msgstr ""
+
+#: includes/class-smart-post-show-post-types.php:80
+msgid "Edit"
+msgstr ""
+
+#: includes/class-smart-post-show-post-types.php:81
+msgid "Edit Show"
+msgstr ""
+
+#: includes/class-smart-post-show-post-types.php:82
+msgid "New Show"
+msgstr ""
+
+#: includes/class-smart-post-show-post-types.php:83
+msgid "Search Shows"
+msgstr ""
+
+#: includes/class-smart-post-show-post-types.php:84
+msgid "No Shows found"
+msgstr ""
+
+#: includes/class-smart-post-show-post-types.php:85
+msgid "No Shows found in Trash"
+msgstr ""
+
+#: includes/class-smart-post-show-post-types.php:86
+msgid "Parent Show"
+msgstr ""

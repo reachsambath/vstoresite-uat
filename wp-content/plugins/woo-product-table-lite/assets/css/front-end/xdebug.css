@@ -1,0 +1,28 @@
+pre.xdebug-var-dump{
+    font-family: Monaco, Consolas, 'Andale Mono', 'DejaVu Sans Mono', monospace;
+    background: #fafafa;
+    box-shadow: 0 0 0 2px rgb(231, 231, 231);
+}
+pre.xdebug-var-dump small{
+    color:#b400ff;
+}
+pre.xdebug-var-dump small:first-child:before{
+    content:'ADDEDRESS:';
+    margin-right:5px;
+    font-weight: bold;
+}
+pre.xdebug-var-dump small:first-child{
+    color:#77358d;
+}
+pre.xdebug-var-dump i{
+    color: #00adff;
+    text-transform: uppercase;
+    font-style: normal;
+}
+pre.xdebug-var-dump b{
+    color: #fe7a09;
+    text-transform: uppercase;
+}
+pre.xdebug-var-dump font[color="#888a85"]{
+    color:#f00;
+}

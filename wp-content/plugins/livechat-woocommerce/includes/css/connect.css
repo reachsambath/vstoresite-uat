@@ -1,0 +1,101 @@
+#wpwrap {
+	background-color: #FFFFFF;
+}
+
+#connect {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 176px;
+
+
+	.wrapper {
+		border: 1px solid #DDDDDD;
+		border-radius: 4px;
+		padding: 48px 32px;
+		width: 528px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background: #FFFFFF;
+	}
+
+	.logo-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 164px;
+		margin-bottom: 32px;
+	}
+
+	.logo {
+		border: 1px solid #DDDDDD;
+		border-radius: 8px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 56px;
+		height: 56px;
+	}
+
+	.title {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 24px;
+		color: #1E1E1E;
+		margin: 0 0 32px 0;
+		text-align: center;
+	}
+
+	.connect-button {
+		outline: none;
+		border: none;
+		margin: 0;
+		padding: 10px 12px;
+		text-decoration: none;
+		width: auto;
+		background-color: #3858E9;
+		color: #FFFFFF;
+		font-size: 13px;
+		line-height: 20px;
+		border-radius: 2px;
+		cursor: pointer;
+
+		&:active, &:focus {
+			box-shadow: none;
+		}
+	}
+
+	.divider {
+		width: 126px;
+		height: 1px;
+		background-color: #DDDDDD;
+		justify-self: center;
+		margin-top: 32px;
+		margin-bottom: 24px;
+	}
+
+	.footer-description {
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 20px;
+		color: #1E1E1E;
+		margin: 0;
+	}
+
+	.footer-anchor {
+		color: #3858E9;
+		text-decoration: none;
+		box-shadow: none;
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 20px;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

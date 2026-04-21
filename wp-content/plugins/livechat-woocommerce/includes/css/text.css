@@ -1,0 +1,36 @@
+/* Connect Notification */
+
+.text-connect-notification-wrapper {
+	padding: 10px 12px;
+}
+
+.text-connect-notification-title {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.text-connect-notification-btn {
+	display: inline-block;
+	background: #0066ff;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 6px 8px;
+	border-radius: 4px;
+	margin-top: 12px;
+	line-height: 20px;
+}
+
+.text-connect-notification-btn:hover {
+	background: #0644a4;
+	color: #ffffff;
+}
+
+/* Fix icon in menu */
+a.toplevel_page_livechat div.wp-menu-image.dashicons-before img {
+	margin-top: -3px !important;
+}
+
+/* Hide exclamation mark in menu on plugin settings page */
+body.livechat_page_livechat_settings a.toplevel_page_livechat span.awaiting-mod {
+	display: none !important;
+}

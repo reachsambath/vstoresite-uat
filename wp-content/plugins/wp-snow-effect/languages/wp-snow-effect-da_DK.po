@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Snow Effect 1.1.18\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-snow-effect\n"
+"POT-Creation-Date: 2025-12-04 21:37:27+01:00\n"
+"PO-Revision-Date: 2025-12-04 21:48+01:00\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Danish <da@li.org>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: manual\n"
+"X-Domain: wp-snow-effect\n"
+
+#. Plugin Name of the plugin
+#: wp-snow-effect.php
+#: admin/class-wp-snow-effect-admin.php:91
+#: admin/class-wp-snow-effect-admin.php:92
+msgid "WP Snow Effect"
+msgstr "WP Snow Effect"
+
+#. Plugin URI of the plugin
+#: wp-snow-effect.php
+msgid "http://www.wpmaniax.com/seasonal-plugins"
+msgstr "http://www.wpmaniax.com/seasonal-plugins"
+
+#. Description of the plugin
+#: wp-snow-effect.php
+msgid "Add nice looking animation effect of falling snow to your Wordpress site and enjoy winter."
+msgstr "Tilføj en flot animationseffekt med faldende sne til dit WordPress-websted og nyd vinteren."
+
+#. Author of the plugin
+#: wp-snow-effect.php
+msgid "WPManiax"
+msgstr "WPManiax"
+
+#. Author URI of the plugin
+#: wp-snow-effect.php
+msgid "http://www.wpmaniax.com"
+msgstr "http://www.wpmaniax.com"
+
+#: includes/wp-settings-framework.php:119
+msgid "WPSF settings must be an array"
+msgstr "WPSF-indstillinger skal være et array."
+
+#: includes/wp-settings-framework.php:469
+msgid "Save Changes"
+msgstr "Gem ændringer"

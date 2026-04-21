@@ -1,0 +1,1165 @@
+/* ═══════════════════════════════════════════════════════════════════
+   AI Shopping Assistant – Chat Widget Styles
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Variables ───────────────────────────────────────────────────── */
+:root {
+    --sai-primary:    #00c44f;
+    --sai-primary-dk: #00a341;
+    --sai-bg:         #f5f6f8;
+    --sai-white:      #ffffff;
+    --sai-text:       #1a1a2e;
+    --sai-text-light: #64748b;
+    --sai-border:     #e2e8f0;
+    --sai-shadow:     0 8px 32px rgba(0, 0, 0, 0.15);
+    --sai-radius:     14px;
+}
+
+/* ── Toggle Button ───────────────────────────────────────────────── */
+.sai-toggle {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 2147483647;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background: var(--sai-primary);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0, 196, 79, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.sai-toggle:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 28px rgba(0, 196, 79, 0.5);
+    background: var(--sai-primary-dk);
+}
+
+.sai-toggle .sai-icon-close { display: none; }
+.sai-toggle.sai-active .sai-icon-chat { display: none; }
+.sai-toggle.sai-active .sai-icon-close { display: block; }
+
+.sai-toggle.sai-active {
+    background: #374151;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* ── Chat Window ─────────────────────────────────────────────────── */
+.sai-window {
+    position: fixed;
+    bottom: 100px;
+    right: 24px;
+    z-index: 2147483646;
+    width: 400px;
+    min-width: 300px;
+    max-width: calc(100vw - 32px);
+    height: 560px;
+    min-height: 350px;
+    max-height: calc(100vh - 140px);
+    background: var(--sai-white);
+    border-radius: var(--sai-radius);
+    box-shadow: var(--sai-shadow);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px) scale(0.95);
+    transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
+}
+
+/* ── Resize Handles ─────────────────────────────────────────────── */
+.sai-resize-handle {
+    position: absolute;
+    z-index: 10;
+}
+
+.sai-resize-handle-top {
+    top: -4px;
+    left: 14px;
+    right: 14px;
+    height: 8px;
+    cursor: n-resize;
+}
+
+.sai-resize-handle-left {
+    top: 14px;
+    left: -4px;
+    bottom: 14px;
+    width: 8px;
+    cursor: w-resize;
+}
+
+.sai-resize-handle-corner {
+    top: -6px;
+    left: -6px;
+    width: 16px;
+    height: 16px;
+    cursor: nw-resize;
+}
+
+.sai-window.sai-resizing {
+    transition: none;
+    user-select: none;
+}
+
+.sai-window.sai-open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+.sai-window.sai-dragover {
+    outline: 3px dashed var(--sai-primary);
+    outline-offset: -3px;
+}
+
+.sai-window.sai-dragover .sai-messages {
+    opacity: 0.5;
+}
+
+/* ── Header ──────────────────────────────────────────────────────── */
+.sai-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    background: var(--sai-primary);
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.sai-header-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sai-avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.sai-header-name {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.sai-header-status {
+    font-size: 11px;
+    opacity: 0.85;
+    margin-top: 2px;
+}
+
+.sai-close,
+.sai-fullscreen,
+.sai-new-chat {
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    transition: background 0.2s;
+}
+
+.sai-close:hover,
+.sai-fullscreen:hover,
+.sai-new-chat:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.sai-fullscreen .sai-icon-collapse { display: none; }
+.sai-window.sai-fullscreen-mode .sai-fullscreen .sai-icon-expand  { display: none; }
+.sai-window.sai-fullscreen-mode .sai-fullscreen .sai-icon-collapse { display: flex; }
+
+/* ── Fullscreen Mode ─────────────────────────────────────────────── */
+.sai-window.sai-fullscreen-mode {
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100vh !important;
+    max-height: 100vh !important;
+    border-radius: 0;
+}
+
+.sai-window.sai-fullscreen-mode .sai-resize-handle {
+    display: none;
+}
+
+.sai-window.sai-fullscreen-mode .sai-products-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* ── Messages Area ───────────────────────────────────────────────── */
+.sai-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    background: var(--sai-bg);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    scroll-behavior: smooth;
+}
+
+.sai-messages::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sai-messages::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+
+/* ── Message Bubbles ─────────────────────────────────────────────── */
+.sai-msg {
+    display: flex;
+    animation: saiFadeIn 0.3s ease;
+}
+
+@keyframes saiFadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.sai-msg-user {
+    justify-content: flex-end;
+}
+
+.sai-msg-bot {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 95%;
+}
+
+.sai-bubble {
+    max-width: 88%;
+    border-radius: 16px;
+    padding: 10px 14px;
+    font-size: 13.5px;
+    line-height: 1.55;
+    word-wrap: break-word;
+}
+
+.sai-bubble p {
+    margin: 0 0 6px;
+}
+
+.sai-bubble p:last-child {
+    margin-bottom: 0;
+}
+
+.sai-bubble-user {
+    background: var(--sai-primary);
+    color: #fff;
+    border-bottom-right-radius: 4px;
+}
+
+.sai-bubble-bot {
+    background: var(--sai-white);
+    color: var(--sai-text);
+    border-bottom-left-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    max-width: 95%;
+}
+
+.sai-bot-text {
+    margin-bottom: 4px;
+}
+
+.sai-bot-text strong {
+    font-weight: 600;
+    color: var(--sai-text);
+}
+
+/* ── Markdown: Headers ─────────────────────────────────────────── */
+.sai-bot-text .sai-h {
+    margin: 10px 0 6px;
+    line-height: 1.3;
+    color: var(--sai-text);
+}
+
+.sai-bot-text h1.sai-h {
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(0, 196, 79, 0.2);
+}
+
+.sai-bot-text h2.sai-h {
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--sai-border);
+}
+
+.sai-bot-text h3.sai-h {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sai-bot-text h4.sai-h,
+.sai-bot-text h5.sai-h,
+.sai-bot-text h6.sai-h {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--sai-text-light);
+}
+
+.sai-bot-text .sai-h:first-child {
+    margin-top: 0;
+}
+
+/* ── Markdown: Lists ───────────────────────────────────────────── */
+.sai-bot-text .sai-list {
+    margin: 6px 0;
+    padding-left: 20px;
+}
+
+.sai-bot-text .sai-list li {
+    margin-bottom: 4px;
+    font-size: 13px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.sai-bot-text ul.sai-list {
+    list-style: none;
+    padding-left: 16px;
+}
+
+.sai-bot-text ul.sai-list li::before {
+    content: '';
+    position: absolute;
+    left: -14px;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--sai-primary);
+}
+
+.sai-bot-text ol.sai-ol {
+    list-style: none;
+    padding-left: 20px;
+    counter-reset: sai-counter;
+}
+
+.sai-bot-text ol.sai-ol li {
+    counter-increment: sai-counter;
+}
+
+.sai-bot-text ol.sai-ol li::before {
+    content: counter(sai-counter);
+    position: absolute;
+    left: -22px;
+    top: 1px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--sai-primary);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ── Markdown: Code ────────────────────────────────────────────── */
+.sai-bot-text .sai-inline-code {
+    background: #f1f5f9;
+    color: #e11d48;
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+.sai-bot-text .sai-code-block {
+    margin: 8px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #1e293b;
+    border: 1px solid #334155;
+}
+
+.sai-bot-text .sai-code-lang {
+    padding: 4px 12px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #94a3b8;
+    background: #0f172a;
+    border-bottom: 1px solid #334155;
+}
+
+.sai-bot-text .sai-code-block pre {
+    margin: 0;
+    padding: 10px 12px;
+    overflow-x: auto;
+    background: #1e293b !important;
+}
+
+.sai-bot-text .sai-code-block code {
+    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #e2e8f0;
+    white-space: pre;
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+/* Override highlight.js background to match chatbot theme */
+.sai-bot-text .sai-code-block pre code.hljs {
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+/* ── Markdown: Blockquote ──────────────────────────────────────── */
+.sai-bot-text .sai-bq {
+    margin: 8px 0;
+    padding: 8px 12px;
+    border-left: 3px solid var(--sai-primary);
+    background: rgba(0, 196, 79, 0.04);
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+    color: var(--sai-text-light);
+    font-size: 13px;
+}
+
+/* ── Markdown: Horizontal Rule ─────────────────────────────────── */
+.sai-bot-text .sai-hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--sai-border), transparent);
+    margin: 10px 0;
+}
+
+/* ── Markdown: Emphasis ────────────────────────────────────────── */
+.sai-bot-text em {
+    font-style: italic;
+    color: var(--sai-text-light);
+}
+
+.sai-bot-text del {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* ── Links in Messages ──────────────────────────────────────────── */
+.sai-bubble a.sai-link {
+    color: var(--sai-primary);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 2px solid var(--sai-primary);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.sai-bubble a.sai-link:hover {
+    color: var(--sai-primary-dk);
+    border-bottom-color: var(--sai-primary-dk);
+    text-decoration: none;
+}
+
+.sai-bubble a.sai-link:active {
+    opacity: 0.8;
+}
+
+.sai-bubble-user a.sai-link {
+    color: #fff;
+    border-bottom-color: rgba(255, 255, 255, 0.7);
+}
+
+.sai-bubble-user a.sai-link:hover {
+    color: #f0f0f0;
+    border-bottom-color: #fff;
+}
+
+/* ── Typing Indicator ────────────────────────────────────────────── */
+.sai-typing {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 14px 20px;
+}
+
+.sai-dot {
+    width: 8px;
+    height: 8px;
+    background: #94a3b8;
+    border-radius: 50%;
+    animation: saiBounce 1.2s infinite;
+}
+
+.sai-dot:nth-child(2) { animation-delay: 0.15s; }
+.sai-dot:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes saiBounce {
+    0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+    30%           { transform: translateY(-6px); opacity: 1; }
+}
+
+/* ── Product Grid ────────────────────────────────────────────────── */
+.sai-products-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.sai-card {
+    background: var(--sai-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--sai-border);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.sai-card:hover {
+    border-color: var(--sai-primary);
+    box-shadow: 0 2px 10px rgba(0, 196, 79, 0.12);
+}
+
+.sai-card-img-link {
+    display: block;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.sai-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s;
+    padding: 6px;
+}
+
+.sai-card:hover .sai-card-img {
+    transform: scale(1.05);
+}
+
+.sai-card-body {
+    padding: 8px 10px 10px;
+}
+
+.sai-card-cat {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--sai-primary-dk);
+    background: rgba(0, 196, 79, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 4px;
+}
+
+.sai-card-name {
+    display: block;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--sai-text);
+    text-decoration: none;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    /* 2 line clamp */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.sai-card-name:hover {
+    color: var(--sai-primary);
+}
+
+.sai-card-price {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--sai-primary-dk);
+    margin-bottom: 4px;
+}
+
+.sai-card-price del {
+    color: #94a3b8;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.sai-card-price ins {
+    text-decoration: none;
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.sai-card-stock {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.sai-card-stock.sai-in {
+    color: var(--sai-primary-dk);
+}
+
+.sai-card-stock.sai-out {
+    color: #dc2626;
+}
+
+.sai-card-actions {
+    display: flex;
+    gap: 4px;
+}
+
+.sai-btn {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 4px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    line-height: 1;
+    border: none;
+}
+
+.sai-btn-view {
+    background: var(--sai-white);
+    color: var(--sai-text);
+    border: 1px solid var(--sai-border);
+}
+
+.sai-btn-view:hover {
+    background: var(--sai-text);
+    color: #fff;
+    border-color: var(--sai-text);
+}
+
+.sai-btn-cart {
+    background: var(--sai-primary);
+    color: #fff;
+}
+
+.sai-btn-cart:hover {
+    background: var(--sai-primary-dk);
+    color: #fff;
+}
+
+/* ── Model Toolbar ───────────────────────────────────────────────── */
+.sai-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-top: 1px solid var(--sai-border);
+    background: var(--sai-white);
+    flex-shrink: 0;
+}
+
+.sai-model-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--sai-text-light);
+    white-space: nowrap;
+}
+
+.sai-model-select {
+    font-size: 11.5px;
+    font-family: inherit;
+    color: var(--sai-text);
+    background: var(--sai-bg);
+    border: 1px solid var(--sai-border);
+    border-radius: 6px;
+    padding: 3px 22px 3px 8px;
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2364748b' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 7px center;
+    transition: border-color 0.2s;
+}
+
+.sai-model-select:focus,
+.sai-model-select:hover {
+    border-color: var(--sai-primary);
+}
+
+/* ── Attachment Preview ─────────────────────────────────────────── */
+.sai-attach-preview {
+    display: none;
+    flex-shrink: 0;
+    background: var(--sai-white);
+    border-top: 1px solid var(--sai-border);
+}
+
+.sai-attach-preview.sai-has-files {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px 14px;
+}
+
+.sai-attach-thumbs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+}
+
+.sai-quick-actions {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.sai-quick-btn {
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: inherit;
+    border: 1px solid rgba(0, 196, 79, 0.3);
+    border-radius: 16px;
+    background: rgba(0, 196, 79, 0.06);
+    color: var(--sai-primary-dk);
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.sai-quick-btn:hover {
+    background: var(--sai-primary);
+    color: #fff;
+    border-color: var(--sai-primary);
+}
+
+.sai-attach-item {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid var(--sai-border);
+    flex-shrink: 0;
+    background: var(--sai-bg);
+}
+
+.sai-attach-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sai-attach-item .sai-attach-file-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 22px;
+}
+
+.sai-attach-item .sai-attach-name {
+    display: block;
+    font-size: 8px;
+    text-align: center;
+    padding: 0 4px;
+    color: var(--sai-text-light);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.sai-attach-remove {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.sai-attach-remove:hover {
+    background: #dc2626;
+}
+
+/* ── Attachment Button ─────────────────────────────────────────── */
+.sai-attach-btn {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--sai-text-light);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: color 0.2s, background 0.2s;
+}
+
+.sai-attach-btn:hover {
+    color: var(--sai-primary);
+    background: rgba(0, 196, 79, 0.08);
+}
+
+/* ── User Attachment Thumbnails ────────────────────────────────── */
+.sai-user-attachments {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+}
+
+.sai-user-attach-img {
+    width: 120px;
+    max-height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.sai-user-attach-file {
+    font-size: 11px;
+    padding: 4px 8px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+}
+
+/* ── Input Area ──────────────────────────────────────────────────── */
+.sai-input-area {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    padding: 12px 14px;
+    border-top: 1px solid var(--sai-border);
+    background: var(--sai-white);
+    flex-shrink: 0;
+}
+
+.sai-input {
+    flex: 1;
+    border: 1px solid var(--sai-border);
+    border-radius: 10px;
+    padding: 9px 12px;
+    font-size: 13.5px;
+    font-family: inherit;
+    resize: none;
+    outline: none;
+    background: var(--sai-bg);
+    color: var(--sai-text);
+    max-height: 100px;
+    line-height: 1.4;
+    transition: border-color 0.2s;
+}
+
+.sai-input:focus {
+    border-color: var(--sai-primary);
+    background: var(--sai-white);
+}
+
+.sai-input::placeholder {
+    color: #94a3b8;
+}
+
+.sai-send {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: var(--sai-primary);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.sai-send:hover {
+    background: var(--sai-primary-dk);
+}
+
+.sai-send:active {
+    transform: scale(0.93);
+}
+
+.sai-send.sai-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* ── Telegram Login Gate ─────────────────────────────────────────── */
+.sai-tg-login-gate {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 24px;
+    background: linear-gradient(135deg, #f8fffe 0%, #f0faf6 100%);
+}
+
+.sai-tg-login-content {
+    text-align: center;
+    max-width: 280px;
+}
+
+.sai-tg-login-icon {
+    margin-bottom: 16px;
+    animation: sai-tg-pulse 2s ease-in-out infinite;
+}
+
+@keyframes sai-tg-pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.08); opacity: 0.85; }
+}
+
+.sai-tg-login-title {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 8px;
+}
+
+.sai-tg-login-desc {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 0.82rem;
+    color: #666;
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+
+.sai-tg-login-widget {
+    display: flex;
+    justify-content: center;
+}
+
+.sai-tg-login-widget iframe {
+    border-radius: 8px;
+}
+
+/* Logged-in user badge in header */
+.sai-tg-user-badge {
+    position: relative;
+    margin-left: auto;
+}
+
+.sai-tg-badge-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.2s, transform 0.15s;
+}
+
+.sai-tg-badge-btn:hover {
+    border-color: rgba(255, 255, 255, 0.6);
+    transform: scale(1.08);
+}
+
+.sai-tg-badge-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sai-tg-badge-initial {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.sai-tg-badge-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 200px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px) scale(0.97);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+    pointer-events: none;
+}
+
+.sai-tg-badge-dropdown.sai-tg-badge-dd--open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+}
+
+.sai-tg-badge-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.sai-tg-badge-avatar-lg {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: var(--sai-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sai-tg-badge-avatar-lg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sai-tg-badge-avatar-lg .sai-tg-badge-initial {
+    font-size: 16px;
+    color: #fff;
+}
+
+.sai-tg-badge-info {
+    overflow: hidden;
+}
+
+.sai-tg-badge-fullname {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a1a1a;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sai-tg-badge-id {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 11px;
+    color: #999;
+    margin-top: 2px;
+}
+
+.sai-tg-user-badge .sai-tg-logout-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 10px 14px;
+    background: none;
+    border: none;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #e53e3e;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.sai-tg-user-badge .sai-tg-logout-btn:hover {
+    background: #fff5f5;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+    .sai-window {
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        max-width: 100vw;
+        height: 100vh;
+        max-height: 100vh;
+        border-radius: 0;
+    }
+
+    .sai-toggle {
+        bottom: 16px;
+        right: 16px;
+        width: 54px;
+        height: 54px;
+    }
+
+    /* Hide floating toggle when chat is open — header X button is sufficient */
+    .sai-toggle.sai-active {
+        display: none;
+    }
+
+    /* Ensure chatbot is always on top of everything on mobile */
+    .sai-window {
+        z-index: 2147483647;
+    }
+
+    .sai-products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .sai-window {
+        width: 360px;
+        height: 500px;
+        right: 16px;
+        bottom: 90px;
+    }
+}

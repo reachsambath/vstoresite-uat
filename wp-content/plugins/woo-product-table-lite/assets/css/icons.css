@@ -1,0 +1,145 @@
+.icon-z{
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+}
+
+i.icon-z,
+span.icon-z{
+    display:inline-block;
+}
+
+.icon-z.mini{
+    width:16px;
+    height:16px;
+}
+
+.icon-z.small{
+    width:32px;
+    height:32px;
+}
+
+.icon-z.medium{
+    width:64px;
+    height:64px;
+}
+
+.icon-z.large{
+    width:128px;
+    height:128px;
+}
+
+.icon-z.extra{
+    width:256px;
+    height:256px;
+}
+
+.icon-z.arrow-right-line{
+    background-image: url("../image/svg/arrow-right-line.svg");
+}
+
+.icon-z.setting{
+    background-image: url("../image/svg/setting.svg");
+}
+
+.icon-z.template{
+    background-image: url("../image/svg/template.svg");
+}
+
+.icon-z.faq{
+    background-image: url("../image/svg/faq.svg");
+}
+
+.icon-z.more{
+    background-image: url("../image/svg/more.svg");
+}
+
+.icon-z.view{
+    background-image: url("../image/svg/preview.svg");
+}
+
+.icon-z.view{
+    background-image: url("../image/svg/preview.svg");
+}
+
+.icon-z.view-dark{
+    background-image: url("../image/svg/preview-dark.svg");
+}
+
+.icon-z.save{
+    background-image: url("../image/svg/save.svg");
+}
+
+.icon-z.arrow-down{
+    background-image: url("../image/svg/arrow-down.svg");
+}
+
+.icon-z.move{
+    background-image: url("../image/svg/move.svg");
+}
+
+.icon-z.desktop{
+    background-image: url("../image/svg/desktop.svg");
+}
+
+.icon-z.laptop{
+    background-image: url("../image/svg/laptop.svg");
+}
+
+.icon-z.tablet{
+    background-image: url("../image/svg/tablet.svg");
+}
+
+.icon-z.phone{
+    background-image: url("../image/svg/phone.svg");
+}
+
+.icon-z.warning{
+    background-image: url("../image/svg/warning.svg");
+}
+
+.icon-z.success{
+    background-image: url("../image/svg/success.svg");
+}
+
+.icon-z.error{
+    background-image: url("../image/svg/error.svg");
+}
+
+.icon-z.trash{
+    background-image: url("../image/svg/trash.svg");
+}
+
+.icon-z.edit{
+    background-image: url("../image/svg/edit.svg");
+}
+
+.icon-z.copy{
+    background-image: url("../image/svg/copy.svg");
+}
+
+.icon-z.add{
+    background-image: url("../image/svg/add.svg");
+}
+
+.icon-z.add-circle{
+    background-image: url("../image/svg/add-button.svg");
+}
+
+.icon-z.add-folder{
+    background-image: url("../image/svg/add-folder.svg");
+}
+
+.icon-z.tick{
+    background-image: url("../image/svg/tick.svg");
+}
+
+.icon-z.x{
+    background-image: url("../image/svg/x.svg");
+}
+
+.icon-z.cart{
+    background-image: url("../image/svg/cart.svg");
+}
