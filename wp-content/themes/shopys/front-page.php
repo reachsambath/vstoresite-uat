@@ -434,23 +434,52 @@ $slide_count = count( $slider_images );
     <div class="fp-cats__inner">
 
         <a href="<?php echo esc_url( get_term_link('laptop','product_cat') ); ?>" class="fp-cats__item">
-            <svg class="fp-cats__icon" viewBox="0 0 24 24"><path d="M4 4h16a1 1 0 0 1 1 1v11H3V5a1 1 0 0 1 1-1zm-3 13h22v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-1z"/></svg>
+            <svg class="fp-cats__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="13" rx="2"/>
+                <path d="M2 19h20"/>
+                <path d="M10 19l.5-2h3l.5 2"/>
+                <path d="M10 11h4M10 8h2"/>
+            </svg>
             Laptops
         </a>
         <a href="<?php echo esc_url( get_term_link('component','product_cat') ); ?>" class="fp-cats__item">
-            <svg class="fp-cats__icon" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 2v4M10 2v4M14 2v4M18 2v4M6 18v4M10 18v4M14 18v4M18 18v4"/><rect x="6" y="9" width="12" height="6" rx="1"/></svg>
+            <svg class="fp-cats__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="7" y="7" width="10" height="10" rx="1.5"/>
+                <rect x="9.5" y="9.5" width="5" height="5" rx=".5"/>
+                <path d="M9 4v3M12 4v3M15 4v3M9 17v3M12 17v3M15 17v3M4 9h3M4 12h3M4 15h3M17 9h3M17 12h3M17 15h3"/>
+            </svg>
             PC Hardware
         </a>
         <a href="<?php echo esc_url( get_term_link('accessories','product_cat') ); ?>" class="fp-cats__item">
-            <svg class="fp-cats__icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"/><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"/><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"/><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"/></svg>
+            <svg class="fp-cats__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 11a9 9 0 0 1 18 0"/>
+                <path d="M3 11v2a2 2 0 0 0 2 2h1V10H5a2 2 0 0 0-2 1z"/>
+                <path d="M21 11v2a2 2 0 0 1-2 2h-1V10h1a2 2 0 0 1 2 1z"/>
+                <path d="M19 15v1a3 3 0 0 1-3 3h-2"/>
+                <rect x="13" y="19" width="2" height="1" rx=".5"/>
+            </svg>
             Accessories
         </a>
         <a href="<?php echo esc_url( get_term_link('gaming-gear','product_cat') ); ?>" class="fp-cats__item">
-            <svg class="fp-cats__icon" viewBox="0 0 24 24"><path d="M6 9H4a2 2 0 0 0-2 2v4a4 4 0 0 0 4 4h2l2 2h4l2-2h2a4 4 0 0 0 4-4v-4a2 2 0 0 0-2-2h-2a7.9 7.9 0 0 0-12 0z"/><line x1="9" y1="12" x2="9" y2="16"/><line x1="7" y1="14" x2="11" y2="14"/></svg>
+            <svg class="fp-cats__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4a2 2 0 0 0-2 2v3a4 4 0 0 0 4 4h2l2 2h4l2-2h2a4 4 0 0 0 4-4v-3a2 2 0 0 0-2-2h-2a8 8 0 0 0-12 0z"/>
+                <line x1="9" y1="11" x2="9" y2="15"/>
+                <line x1="7" y1="13" x2="11" y2="13"/>
+                <circle cx="15.5" cy="11.5" r=".75" fill="currentColor" stroke="none"/>
+                <circle cx="17.5" cy="13.5" r=".75" fill="currentColor" stroke="none"/>
+                <circle cx="15.5" cy="13.5" r=".75" fill="currentColor" stroke="none"/>
+                <circle cx="17.5" cy="11.5" r=".75" fill="currentColor" stroke="none"/>
+            </svg>
             Gaming Gear
         </a>
         <a href="<?php echo esc_url( get_term_link('monitor','product_cat') ); ?>" class="fp-cats__item">
-            <svg class="fp-cats__icon" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            <svg class="fp-cats__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="13" rx="2"/>
+                <path d="M12 16v4"/>
+                <path d="M8 20h8"/>
+                <path d="M7 8h3M7 11h2"/>
+                <rect x="13" y="7" width="5" height="4" rx="1"/>
+            </svg>
             Monitors
         </a>
 
