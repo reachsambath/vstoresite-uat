@@ -543,7 +543,7 @@ $slide_count = count( $slider_images );
                     </div>
                 </div>
                 <?php
-                $used_cat = get_term_by( 'slug', 'used', 'product_cat' );
+                $used_cat = get_term_by( 'slug', 'used-product', 'product_cat' );
                 $used_link = $used_cat ? get_term_link( $used_cat ) : wc_get_page_permalink( 'shop' );
                 ?>
                 <a href="<?php echo esc_url( $used_link ); ?>" class="fp-section-head__link">
@@ -551,7 +551,7 @@ $slide_count = count( $slider_images );
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </a>
             </div>
-            <?php echo do_shortcode( '[premium_products category="used" limit="12" columns="6" filter="false" cart="true" show_description="false" pagination_type="normal"]' ); ?>
+            <?php echo do_shortcode( '[premium_products category="used-product" limit="12" columns="6" filter="false" cart="true" show_description="false" pagination_type="normal"]' ); ?>
         </div>
     </div>
 </section>
