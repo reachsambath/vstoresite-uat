@@ -530,6 +530,32 @@ $slide_count = count( $slider_images );
     <?php echo do_shortcode( '[premium_products category="marvo" limit="12" columns="6" filter="false" cart="true" show_description="false" pagination_type="normal"]' ); ?>
 </section>
 
+<!-- ═══════════════════════════ USED PRODUCTS ════════════════════════ -->
+<section class="fp-products fp-used">
+    <div class="fp-products__inner">
+        <div class="fp-cat-section">
+            <div class="fp-section-head">
+                <div class="fp-section-head__left">
+                    <div class="fp-section-head__bar" style="background:#f59e0b;"></div>
+                    <div>
+                        <h2 class="fp-section-head__title">Used Products <span style="background:#f59e0b;color:#000;font-size:12px;font-weight:700;padding:2px 8px;border-radius:20px;vertical-align:middle;margin-left:6px;">Second Hand</span></h2>
+                        <span class="fp-section-head__count">Quality checked · Best price</span>
+                    </div>
+                </div>
+                <?php
+                $used_cat = get_term_by( 'slug', 'used', 'product_cat' );
+                $used_link = $used_cat ? get_term_link( $used_cat ) : wc_get_page_permalink( 'shop' );
+                ?>
+                <a href="<?php echo esc_url( $used_link ); ?>" class="fp-section-head__link">
+                    View All Used Products
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+            <?php echo do_shortcode( '[premium_products category="used" limit="12" columns="6" filter="false" cart="true" show_description="false" pagination_type="normal"]' ); ?>
+        </div>
+    </div>
+</section>
+
 <!-- ═══════════════════════════ PRODUCT SECTIONS ══════════════════════ -->
 <section class="fp-products">
     <div class="fp-products__inner">
