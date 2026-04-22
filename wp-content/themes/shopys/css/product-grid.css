@@ -181,6 +181,10 @@
     grid-template-columns: repeat(5, 1fr);
 }
 
+.ppg-cols-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
 /* ---- Product Card ---- */
 .ppg-card {
     position: relative;
@@ -619,7 +623,14 @@ body article .entry-content .ppg-title-link:active,
 }
 
 /* ---- Responsive ---- */
-/* Responsive — keep 4 columns, just scale down */
+@media screen and (max-width: 1024px) {
+    .ppg-cols-6 { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media screen and (max-width: 768px) {
+    .ppg-cols-6 { grid-template-columns: repeat(3, 1fr); }
+}
+
 @media screen and (max-width: 600px) {
     .ppg-container {
         padding: 10px 6px;

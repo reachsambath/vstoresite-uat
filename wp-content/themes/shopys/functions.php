@@ -169,6 +169,29 @@ $wp_customize->add_control(
 
 add_action( 'customize_register', 'shopys_setting', 100 );
 
+/* ── Hero Slider Customizer ───────────────────────────────────── */
+function shopys_hero_slider_customizer( $wp_customize ) {
+
+    $wp_customize->add_section( 'shopys_hero_slider', array(
+        'title'    => __( 'Hero Slider Images', 'shopys' ),
+        'priority' => 30,
+    ) );
+
+    $defaults = shopys_hero_slider_defaults();
+
+    for ( $i = 1; $i <= 5; $i++ ) {
+        $wp_customize->add_setting( 'shopys_hero_slide_' . $i, array(
+            'default'           => $defaults[ $i ],
+            'sanitize_callback' => 'esc_url_raw',
+        ) );
+        $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'shopys_hero_slide_' . $i, array(
+            'label'   => sprintf( __( 'Slide %d Image', 'shopys' ), $i ),
+            'section' => 'shopys_hero_slider',
+        ) ) );
+    }
+}
+add_action( 'customize_register', 'shopys_hero_slider_customizer', 101 );
+
 /***************************/
 //custom style
 /***************************/
@@ -261,6 +284,7 @@ require_once get_stylesheet_directory() . '/inc/ai-chatbot.php';
 
 // Shortcode Guide — admin sidebar reference page
 require_once get_stylesheet_directory() . '/inc/shortcode-guide.php';
+require_once get_stylesheet_directory() . '/inc/hero-slider-settings.php';
 
 // ── Fixed $2 shipping — no zone setup required ────────────────────────────────
 add_filter( 'woocommerce_package_rates', 'shopys_force_flat_2_shipping', 99, 2 );
@@ -473,6 +497,12 @@ function shopys_announcement_banner() {
     <?php
 }
 add_action( 'open_shop_below_header', 'shopys_announcement_banner', 1 );
+
+// Disable fallback to "show all pages" when no menu is assigned to a location
+add_filter( 'wp_nav_menu_args', function( $args ) {
+    $args['fallback_cb'] = false;
+    return $args;
+} );
 
 // Include Product Details admin page
 require_once get_stylesheet_directory() . '/inc/product-details.php';
